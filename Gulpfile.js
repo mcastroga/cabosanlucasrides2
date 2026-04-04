@@ -77,29 +77,6 @@ const paths = {
     hotel: {
         main: "source/templates/en/blog/**/*.pug",
         output: "./website/en/blog/"
-    },
-    qr_templates: {
-        main: "source/templates/qr/*.pug",
-        output: "./website/qr/"
-    },
-    qr_images: {
-        main: [
-            "source/templates/qr/images/**/*.gif",
-            "source/templates/qr/images/**/*.jpg",
-            "source/templates/qr/images/**/*.png",
-            "source/templates/qr/images/**/*.svg",
-            "source/templates/qr/images/**/*.webp"
-        ],
-        output: "./website/qr/images/"
-    },
-    qr_scripts: {
-        main: "source/templates/qr/scripts/*.js",
-        output: "./website/qr/"
-    },
-
-    qr_php: {
-        main: "source/templates/qr/php/*.php",
-        output: "./website/qr/"
     }
 };
 
@@ -156,22 +133,6 @@ function buildTemplatesHotel() {
     return src(paths.hotel.main).pipe(pug({ pretty: true })).pipe(dest(paths.hotel.output));
 }
 
-function buildQRTemplates() {
-    return src(paths.qr_templates.main).pipe(pug({ pretty: true })).pipe(dest(paths.qr_templates.output));
-}
-
-function buildQRImages() {
-    return src(paths.qr_images.main, {encoding: false}).pipe(dest(paths.qr_images.output));
-}
-
-function buildQRScripts() {
-    return src(paths.qr_scripts.main).pipe(dest(paths.qr_scripts.output));
-}
-
-function buildQRPHP() {
-    return src(paths.qr_php.main).pipe(dest(paths.qr_php.output));
-}
-
 // Browser Sync
 function browserSyncServe(cb) {
     browserSync.init({
@@ -200,10 +161,6 @@ function watchFiles() {
     watch("source/styles/**/*.styl", series(buildStyles, browserSyncReload));
     watch("source/**/*.php", series(copyPhp, browserSyncReload));
     watch("source/scripts/*.js", series(buildScripts, browserSyncReload));
-    watch("source/templates/qr/**/*.pug", series(buildQRTemplates, browserSyncReload));
-    watch("source/templates/qr/**/images/**/*.{gif,jpg,png,svg}", series(buildQRImages, browserSyncReload));
-    watch("source/templates/qr/**/scripts/**/*.js", series(buildQRScripts, browserSyncReload));
-    watch("source/templates/qr/**/php/**/*.php", series(buildQRPHP, browserSyncReload));
 }
 
 // Reload task with process respawn
@@ -217,7 +174,7 @@ function reloadTask(cb) {
 }
 
 // Combined tasks
-const build = parallel(buildScripts, buildStyles, buildStylesImages, buildVendorsScripts, buildVendorsStyle, copyImages, copyJson, copyWebFonts, copyPhp, buildTemplates, buildTemplatesENPages, buildTemplatesHotel, buildTemplatesENPagesBlog, buildQRTemplates, buildQRImages, buildQRScripts, buildQRPHP);
+const build = parallel(buildScripts, buildStyles, buildStylesImages, buildVendorsScripts, buildVendorsStyle, copyImages, copyJson, copyWebFonts, copyPhp, buildTemplates, buildTemplatesENPages, buildTemplatesHotel, buildTemplatesENPagesBlog);
 const serve = series(build, parallel(watchFiles, browserSyncServe));
 
 // Export tasks
