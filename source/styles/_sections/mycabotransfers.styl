@@ -1,0 +1,708 @@
+$color-action = $color-purple;
+
+section#mycabotransfers
+  background url("/images/banners/mycabotransfers.jpg")
+  background-repeat no-repeat
+  background-size cover
+  color #fff
+  font-size 16px
+  font-weight 300
+  line-height 20px
+  margin-top 100px
+  overflow hidden
+  padding 30px 0
+  position relative
+
+  p
+    color #000
+    margin-bottom 0
+
+  form
+    margin-bottom 0
+
+  #mycabotransfers-booking
+    #mycabotransfers-booking-top
+      height 40px
+      margin 0 15px
+
+      #header-total
+        align-items center
+        background-color $color-action
+        border-top 2px solid #000
+        border-right 2px solid #000
+        border-left 2px solid #000
+        border-radius 10px 10px 0 0
+        color #fff
+        display none
+        height 40px
+        line-height 40px
+        justify-content center
+
+        p
+          color #fff
+          font-size 18px
+          padding 0
+
+          span
+            font-weight 600
+
+      #service-options
+        display flex
+
+      .booking-top
+        background-color #fff
+        border-top 2px solid #000
+        border-left 2px solid #000
+        border-right 2px solid #000
+        border-radius 10px 10px 0 0
+        color #000
+        display inline-flex
+        height 40px
+        max-width 120px
+        overflow hidden
+        padding 0 8px
+        width auto
+
+        .booking-top-image
+          align-items center
+          display flex
+          height 38px
+          justify-content center
+          width 24px
+
+          img
+            height 16px
+
+        .booking-top-text
+          align-items center
+          display flex
+          height 38px
+          margin-left 10px
+          justify-content center
+
+          p
+            font-size 12px
+            line-height 14px
+            padding 0
+
+      .booking-top.selected
+        background-color $color-action
+        max-width 160px
+
+        .booking-top-image
+          img
+            filter invert(1)
+        .booking-top-text
+          p
+            color #fff
+
+    #mycabotransfers-booking-center
+      background-color #fff
+      border 2px solid #000
+      border-radius 10px
+      overflow hidden
+
+      #promo-activated,
+      #step-2,
+      #step-3,
+      #step-4
+        display none
+
+      #step-1-airport-private-transfer,
+      #step-2,
+      #step-3,
+      #step-4,
+      #step-5
+        background-color #fff
+        min-height 570px
+
+        .info-container
+          flex-direction column
+          padding 30px 15px
+          width 100%
+
+          form
+            margin 0
+
+          #selected-add-return,
+          #selected-add-promo
+            display none
+
+          .book-button.ready
+            background #fff
+            border 2px solid #000
+
+          .book-button.empty
+            background #fff
+            border 2px solid #ececec
+
+          .book-button
+            background #ececec
+            border 2px solid #ececec
+            border-radius 10px
+            cursor pointer
+            display block
+            height 60px
+            margin-bottom 15px
+            overflow hidden
+            padding 5px 10px
+            position relative
+            width 100%
+
+            p.centered
+              align-items center
+              display flex
+              font-size 20px
+              height 46px
+              justify-content center
+              padding 0
+
+            label
+              color #000
+              font-size 16px
+              font-weight 400
+              height 21px
+              line-height 21px
+              margin-left 0
+              width 100%
+
+            label.special
+              font-size 16px
+
+            label#arrival-airline,
+            label#arrival-flight,
+            label#departure-airline,
+            label#departure-flight
+              display none
+
+            .container-book-button
+              display inline-flex
+              height 25px
+              line-height 25px
+              margin-top 0
+              width 100%
+
+              .book-image
+                align-items center
+                display flex
+                height 25px
+                justify-content center
+                overflow hidden
+                margin-right 5px
+                width 25px
+
+                img
+                  height 18px
+
+              .book-text
+                width 100%
+
+                input[type="time"]::-webkit-calendar-picker-indicator
+                  background none
+                  display none
+
+                input[type='text'],
+                input[type='time'],
+                input[type='date'],
+                input[type='number'],
+                select
+                input[type="button"],
+                input#form-hotel
+                  background-color transparent
+                  border 0
+                  border-radius 0
+                  color #000
+                  font-size 16px
+                  height 25px
+                  line-height 25px
+                  margin 0
+                  outline none
+                  padding 0
+                  width 100%
+                  -webkit-appearance none
+                  -moz-appearance none
+
+                input#form-pax
+                  margin 0 10px 20px
+                  max-width 80px
+                  text-align center
+
+                input#form-unit-van
+                  display none
+
+                select
+                  -webkit-appearance menulist
+                  -moz-appearance menulist
+
+                p
+                  font-size 16px
+                  font-weight 400
+                  padding 0
+
+            .wrapper-pax
+              display inline-flex
+              height 25px
+              width 100%
+
+              .qtyplus,
+              .qtyminus
+                align-items center
+                background: $color-action
+                border-radius 50%
+                color #fff
+                cursor pointer
+                display flex
+                font-size 20px
+                height 25px
+                justify-content center
+                margin 0 5px
+                min-width 25px
+                width 25px
+
+          .book-button.checkbox
+            align-items center
+            display flex
+            justify-content center
+
+            .book-image-checkbox
+              input[type='checkbox']
+                border-radius 50%
+                margin-top 0
+                padding 0
+
+              .form-check-input:checked
+                background-color $color-action !important
+                border 1px solid $color-action !important
+
+            .book-text-checkbox
+              label
+                font-size 14px
+                height auto
+                margin-left 10px
+
+          .book-button.big
+            display inline-block
+            height 180px
+            width 100%
+
+            .book-image-checkbox
+              float left
+              height 166px
+              line-height 166px
+              width 100px
+
+              .form-check-input
+                border 4px solid $color-action
+                border-radius 50%
+                height 80px
+                margin 42px 10px !important
+                width 80px
+
+              .form-check-input.selected
+                background-color $color-action
+
+            .book-text-checkbox
+              height 166px
+              float left
+              width calc(100% - 100px)
+
+            .book-text-checkbox-wrapper
+              align-items center
+              display flex
+              height 100%
+              justify-content center
+
+              h4
+                font-size 22px
+                margin 0
+                padding-bottom 10px
+                text-align center
+
+              p
+                font-size 18px
+                padding-bottom 10px
+
+          #select-from,
+          #select-to,
+          #remove-return,
+          #remove-promo
+            display none
+
+          .book-button-results
+            background-color #fff
+            border-radius 10px
+            box-shadow 0 6px 10px -2px #000000e6
+            height auto
+            min-height 81px
+            position absolute
+            top 60px
+            width calc(100% - 25px)
+            z-index 100
+
+            .container-book-button-results#option-from-airport,
+            .container-book-button-results#option-to-airport
+              cursor pointer
+
+            .container-book-button-results
+              align-items center
+              border 2px solid #fff
+              display inline-flex
+              height 50px
+              padding 5px 10px
+              width 100%
+
+
+              .book-image
+                align-items center
+                display flex
+                height 40px
+                justify-content center
+                margin-right 10px
+                width 20px
+
+                img
+                  height 18px
+
+              .book-text
+                display block
+                width 100%
+
+                #form-hotel-from,
+                #form-hotel-to
+                  border 0
+                  border-bottom 1px solid #000
+                  border-radius 0
+                  font-size 16px
+                  height 40px
+                  line-height 40px
+                  margin 0
+                  outline none
+                  padding 0
+                  width 100%
+
+                .easy-autocomplete.eac-round
+                  margin 0
+
+                p
+                  font-size 16px
+                  padding 0
+
+          .book-button-results-separator
+            border-bottom 1px solid #ccc
+
+          .close-button
+            background-color #fff
+            border-radius 50%
+            cursor pointer
+            position absolute
+            top 5px
+            right -10px
+            z-index 99
+
+            img
+              height 25px
+
+        input::placeholder
+          color #000
+          height 30px
+          line-height 30px
+          opacity 1
+
+        input:-ms-input-placeholder
+          color #000
+
+        input::-ms-input-placeholder
+          color #000
+
+        input::-webkit-calendar-picker-indicator
+          filter invert(1)
+
+        .submit-button
+          align-items center
+          background-color $color-action
+          border-radius 8px
+          color #fff
+          cursor pointer
+          display flex
+          font-size 26px
+          height 60px
+          justify-content center
+          margin-bottom 0
+          text-align center
+          width 100%
+
+        #send-step-1
+          margin-top 0
+
+          img
+            margin-right 15px
+
+        #send-step-3
+          margin-top 55px
+
+        .submit-button[disabled="disabled"],
+        .qtyplus[disabled='disabled'],
+        .qtyminus[disabled='disabled']
+          opacity 0.5
+
+      #step-3
+        #click-paypal
+          height 1px
+          width 1px
+
+      #step-4
+        #thanks-after
+          align-items center
+          display flex
+          height 510px
+          justify-content center
+          width 100%
+
+    #mycabotransfers-booking-bottom
+      align-items center
+      background-color #fff
+      border-bottom 2px solid #000
+      border-left 2px solid #000
+      border-right 2px solid #000
+      border-radius 0 0 10px 10px
+      display flex
+      height 40px
+      justify-content center
+      margin 0 15px
+      text-align center
+
+      .google-wrapper,
+      .tripadvisor-wrapper,
+      .separator
+        align-items center
+        display inline-flex
+        height 38px
+        justify-content center
+        padding 0 10px
+
+        a
+          align-items center
+          color #000
+          display flex
+          font-size 16px
+
+          img.circles
+            padding-left 10px
+
+          p
+            font-size 16px
+            padding-left 10px
+
+      .separator
+        color #000
+
+  #mycabotransfers-image
+    #square-image
+      align-items center
+      display flex
+      height 100%
+      justify-content center
+      width 100%
+
+      img
+        width 100%
+
+  .easy-autocomplete-container
+    ul
+      background-color #fff
+
+      li
+        color #000
+
+      li.selected
+        background-color $color-action
+        color #fff
+
+  .easy-autocomplete.eac-round
+    margin-bottom 20px
+    width auto !important
+
+  #services
+    color #fff
+    padding 30px 0 0 0
+
+    .service-container
+      align-items center
+      display flex
+      font-size 36px
+      height auto
+      justify-content center
+      line-height 40px
+      padding 15px 0
+
+      .service-image
+        align-items center
+        display flex
+
+      .service-text
+        align-items center
+        display flex
+        color #fff
+        font-size 18px
+        height auto
+        margin-left 20px
+
+        p
+          color #fff
+          line-height 20px
+          margin 0
+          padding 0
+
+
+  #step1Modal
+    .modal-body
+      padding 50px 10px
+
+      #for-only-suvs
+        p.title
+          margin 15px 0
+
+      #select-toyota-sienna,
+      #select-chevrolet-suburban,
+      #select-toyota-hiace,
+      #select-mercedes-benz-sprinter
+        border 2px solid #ccc
+        border-radius 15px
+        cursor pointer
+        margin 5px 0
+
+        .col-7
+          padding-bottom 5px
+          padding-left 0
+          padding-right 0
+          padding-top 5px
+
+        h4
+          font-size 16px
+          font-weight bold
+          margin-bottom 0
+          padding-bottom 5px
+
+        p
+          font-size 14px
+          line-height 20px
+          text-align left
+          strong
+            font-size 14px
+          img
+            height 16px
+            margin-right 10px
+
+        .col-2
+          align-items center
+          display flex
+          justify-content center
+          padding-right 0
+
+      #select-toyota-sienna.selected,
+      #select-chevrolet-suburban.selected,
+      #select-toyota-hiace.selected
+      #select-mercedes-benz-sprinter.selected
+        border 2px solid $color-action
+
+      p
+        font-size 40px
+        line-height 40px
+        padding 0
+        text-align center
+    .modal-footer
+      button
+        align-items center
+        background-color gray
+        border 0
+        color #fff
+        display flex
+        height 40px
+      button#goToStep2
+        background-color $color-action
+
+
+@media(max-width 1399px)
+  section#mycabotransfers
+    #mycabotransfers-booking
+      #mycabotransfers-booking-center
+        #step-2
+          .info-container
+            .book-button
+              label.special
+                font-size 12px
+
+@media(max-width 991px)
+  section#mycabotransfers
+    #mycabotransfers-booking
+      #mycabotransfers-booking-center
+        #step-2
+          .info-container
+            .book-button
+              label.special
+                font-size 16px
+
+@media(max-width 575px)
+  section#mycabotransfers
+    #mycabotransfers-booking
+      #mycabotransfers-booking-center
+        #step-2
+          .info-container
+            .book-button.checkbox
+              .book-text-checkbox
+                label
+                  font-size 12px
+            .book-button
+              label.special
+                font-size 12px
+  section#services
+    h2
+      font-size 30px
+    h3
+      font-size 26px
+    .col-sm-3
+      img
+        height 50px
+        margin 10px 0
+
+    .box-grocery
+      padding 0
+
+      p
+        font-size 18px
+
+@media(max-width 460px)
+  section#mycabotransfers
+    #mycabotransfers-booking
+      #mycabotransfers-booking-center
+        #step-2
+          .info-container
+            .book-button.checkbox
+              .book-text-checkbox
+                label
+                  font-size 10px
+            .book-button
+              label.special
+                font-size 10px
+
+.ui-datepicker-calendar
+  a
+    font-size inherit!important
+
+.ui-timepicker-container.ui-timepicker-standard
+  padding 0
+  a
+    font-size 16px!important
+
+.margin-bottom-20
+  margin-bottom 20px
+
+section#separator-1
+  .separator-1
+    margin-top 0
+  .separator-2
+    margin-top 20px
+  .separator-3
+    margin-top 40px
+  .separator-4
+    margin-top 60px

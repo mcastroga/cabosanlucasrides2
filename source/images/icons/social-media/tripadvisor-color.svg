@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="405px" height="238px" viewBox="0 0 405 238" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <g id="tripadvisor-color" transform="translate(8.5 8.5)">
+    <path d="M0 68.1183C36.0512 25.6041 97.3192 0 163 0C228.681 0 289.949 25.6041 326 68.1183L326 124.118L0 124.118" transform="translate(31 0)" id="Shape" fill="#FCC40F" stroke="#000A12" stroke-width="17" />
+    <g id="Group" transform="translate(0 26.118256)">
+      <g id="a">
+        <path d="M194 97L161 97L161 142L192 189M19 48C22 36 0 2 0 0L77 0" transform="translate(2 0)" id="Shape" fill="#000A12" stroke="none" />
+        <path d="M0 97C0 43.4284 43.4284 0 97 0C150.572 0 194 43.4284 194 97C194 150.572 150.572 194 97 194C43.4284 194 0 150.572 0 97Z" id="Circle" fill="#000A12" stroke="none" />
+        <path d="M0 78C0 34.9218 34.9218 0 78 0C121.078 0 156 34.9218 156 78C156 121.078 121.078 156 78 156C34.9218 156 0 121.078 0 78Z" transform="translate(19 19)" id="Circle" fill="#FFFFFF" stroke="none" />
+        <path d="M0 50C0 22.3858 22.3858 0 50 0C77.6142 0 100 22.3858 100 50C100 77.6142 77.6142 100 50 100C22.3858 100 0 77.6142 0 50Z" transform="translate(47 47)" id="Circle" fill="#000A12" stroke="none" />
+        <path d="M0 33C0 14.7746 14.7746 0 33 0C51.2254 0 66 14.7746 66 33C66 51.2254 51.2254 66 33 66C14.7746 66 0 51.2254 0 33Z" transform="translate(64 64)" id="Circle" fill="#FFFFFF" stroke="none" />
+      </g>
+      <g id="a" transform="matrix(-1 0 0 1 388 0)">
+        <path d="M194 97L161 97L161 142L192 189M19 48C22 36 0 2 0 0L77 0" transform="translate(2 0)" id="Shape" fill="#000A12" stroke="none" />
+        <path d="M0 97C0 43.4284 43.4284 0 97 0C150.572 0 194 43.4284 194 97C194 150.572 150.572 194 97 194C43.4284 194 0 150.572 0 97Z" id="Circle" fill="#000A12" stroke="none" />
+        <path d="M0 78C0 34.9218 34.9218 0 78 0C121.078 0 156 34.9218 156 78C156 121.078 121.078 156 78 156C34.9218 156 0 121.078 0 78Z" transform="translate(19 19)" id="Circle" fill="#FFFFFF" stroke="none" />
+        <path d="M0 50C0 22.3858 22.3858 0 50 0C77.6142 0 100 22.3858 100 50C100 77.6142 77.6142 100 50 100C22.3858 100 0 77.6142 0 50Z" transform="translate(47 47)" id="Circle" fill="#000A12" stroke="none" />
+        <path d="M0 33C0 14.7746 14.7746 0 33 0C51.2254 0 66 14.7746 66 33C66 51.2254 51.2254 66 33 66C14.7746 66 0 51.2254 0 33Z" transform="translate(64 64)" id="Circle" fill="#FFFFFF" stroke="none" />
+      </g>
+      <path d="M0 17C0 7.61116 7.61116 0 17 0C26.3888 0 34 7.61116 34 17C34 26.3888 26.3888 34 17 34C7.61116 34 0 26.3888 0 17Z" transform="translate(80 80)" id="Circle" fill="#EF6A45" stroke="none" />
+      <path d="M0 17C0 7.61116 7.61116 0 17 0C26.3888 0 34 7.61116 34 17C34 26.3888 26.3888 34 17 34C7.61116 34 0 26.3888 0 17Z" transform="translate(274 80)" id="Circle" fill="#00B087" stroke="none" />
+    </g>
+  </g>
+</svg>

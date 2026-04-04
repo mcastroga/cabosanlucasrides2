@@ -1,0 +1,239 @@
+
+
+body
+    background #fff
+    font-family "Roboto", sans-serif
+
+    a
+      text-decoration: none
+
+    h2, h3, h4, h5, h6
+      font-family "Playfair Display", serif;
+
+    .background-color-1
+      background-color #F7F7F7
+
+    @require '_variables/colors.styl'
+    @require '_variables/fonts.styl'
+    @require '_partials/menu.styl'
+    @require '_partials/footer.styl'
+
+    @require '_sections/banners.styl'
+    @require '_sections/zones.styl'
+    @require '_sections/welcome.styl'
+    @require '_sections/testimonials.styl'
+    @require '_sections/mycabotransfers.styl'
+
+    .text-right
+        text-align right
+    .text-left
+        text-align left
+    .margin-right-10
+      margin-right 10px
+    .box-textimonial
+      margin 0 auto
+      min-height 250px
+      width 70%
+    .height-100
+      height 100%
+
+  section#blog-index
+    background-color #4d4d4d
+    padding 30px 0 0
+    position relative
+
+    .card
+      margin-bottom 30px
+
+      a, p
+        color #000
+
+      .card-title
+        color #000
+        display -webkit-box
+        -webkit-line-clamp 2
+        -webkit-box-orient vertical
+        min-height 48px
+        overflow hidden
+        text-overflow ellipsis
+
+      .card-text
+        display -webkit-box
+        -webkit-line-clamp 3
+        -webkit-box-orient vertical
+        font-size 16px
+        height 76px
+        margin 0
+        overflow hidden
+        padding 0
+        text-overflow ellipsis
+
+    @media(max-width: 767px)
+      h2
+        font-size 22px
+      p
+        font-size 18px
+
+body.hotels
+  background-color #fff
+  section.banner
+    margin-top 130px
+
+  section.article
+    margin-bottom 30px
+    margin-top 30px
+
+  section.transportation
+    margin-bottom 40px
+
+  section.contact
+    margin-top 40px
+
+  section.maps
+    margin 40px 0
+
+  h1, h2,h3, h4, h5, h6
+    color #000
+    text-align left
+
+  h1
+    font-size 32px
+    padding-bottom 30px
+
+  h2
+    font-size 30px
+
+  h3
+    font-size 28px
+    font-weight 600
+
+  ul
+    padding-left 2rem
+
+  section.introduction
+    margin-top 30px
+
+  section#mycabotransfers
+    margin-top 0
+
+section#separator-1,
+section#separator-2
+  background-color #fff
+  padding 40px 0
+
+@media (min-width: 1200px)
+  .col-xl
+    flex: 1 0 0% !important
+
+@media (max-width: 1199px)
+  section#zones .fix-mobile-margin-bottom
+    margin-bottom: 30px
+
+#qr-page
+  background-color #fff
+  font-size 16px
+
+  .no-in-qr
+    display none !important
+
+  section#mobile-back
+    margin-top 10px
+
+    a.back-menu
+      font-size 16px
+      font-weight 600
+      padding 0
+
+      img
+        margin-right 10px
+
+  section#mycabotransfers
+    background #fff!important
+    margin-top 30px!important
+
+    .border-card
+      border 1px solid #000
+
+    #mycabotransfers-booking
+      #mycabotransfers-booking-top
+        .booking-top.selected
+          background #7a5c9d !important
+      h5,
+      input.submit-button,
+      .reservation-header
+        background-color #7a5c9d !important
+
+      .easy-autocomplete-container
+        ul
+          li.selected
+            background-color #7a5c9d !important
+            color #fff
+      #step-1-airport-private-transfer
+        .qtyminus,
+        .qtyplus
+          background #7a5c9d !important
+      #step-3
+        button
+          background-color #7a5c9d !important
+
+  section#mobile-lang
+    #lang-button
+      border 0
+      color #7a5c9d
+      font-size 12px
+      font-weight 600
+      height 30px
+      line-height 30px
+      outline 0
+      padding 0
+
+    #lang-selector
+      left -80px
+      min-width 120px
+
+      li
+        padding-bottom 0
+
+      .dropdown-item
+        height: 30px;
+        overflow: hidden;
+        padding: 0 5px;
+        line-height: 30px;
+        font-size: 14px;
+        width: 120px;
+
+      .dropdown-item:hover
+        background-color #7a5c9d
+        color #fff
+
+  section#logo
+    padding 30px 30px 0 30px
+
+    img
+      max-width 220px
+
+
+  section#mobile-menu
+    padding 30px
+    h2
+      font-size 26px
+      padding-bottom 20px
+    p
+      padding-bottom 40px
+    a
+      background-color #7a5c9d
+      border 1px solid #7a5c9d
+      border-radius 8px
+      color #fff
+      display block
+      font-weight 600
+      height 50px
+      line-height 50px
+      margin-bottom 10px
+      padding 0
+      text-align center
+      text-transform uppercase
+      width 100%
+
+      img
+        margin-right 20px

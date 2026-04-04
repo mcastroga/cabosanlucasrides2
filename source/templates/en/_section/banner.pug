@@ -1,0 +1,30 @@
+section#banner
+  #banner-hero.carousel.slide(data-bs-ride='carousel')
+    .carousel-indicators
+      button.active(type='button' data-bs-target='#banner-hero' data-bs-slide-to='0' aria-current='true' aria-label='Slide 1')
+      button(type='button' data-bs-target='#banner-hero' data-bs-slide-to='1' aria-label='Slide 2')
+      button(type='button' data-bs-target='#banner-hero' data-bs-slide-to='2' aria-label='Slide 3')
+      button(type='button' data-bs-target='#banner-hero' data-bs-slide-to='3' aria-label='Slide 4')
+      button(type='button' data-bs-target='#banner-hero' data-bs-slide-to='4' aria-label='Slide 5')
+      button(type='button' data-bs-target='#banner-hero' data-bs-slide-to='5' aria-label='Slide 5')
+
+    .carousel-inner
+      .carousel-item.active
+        .img-banner.img-01
+      .carousel-item
+        .img-banner.img-02
+      .carousel-item
+        .img-banner.img-03
+      .carousel-item
+        .img-banner.img-04
+      .carousel-item
+        .img-banner.img-05
+      .carousel-item
+        .img-banner.img-06
+
+    button.carousel-control-prev(type='button' data-bs-target='#banner-hero' data-bs-slide='prev')
+      span.carousel-control-prev-icon(aria-hidden='true')
+      span.visually-hidden Previous
+    button.carousel-control-next(type='button' data-bs-target='#banner-hero' data-bs-slide='next')
+      span.carousel-control-next-icon(aria-hidden='true')
+      span.visually-hidden Next

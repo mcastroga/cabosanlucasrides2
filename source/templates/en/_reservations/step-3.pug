@@ -1,0 +1,62 @@
+#step-3.row
+  .col-sm-12
+    .info.info-container
+      .row
+        #form-container-paypal.col-12.position-relative
+          .book-button.checkbox.ready.big
+            .book-image-checkbox
+              #form-payment-paypal.form-check-input.selected.d-flex
+                img(src='/images/reservations/icons/check.svg')
+            .book-text-checkbox
+              .book-text-checkbox-wrapper
+                .d-block.w-100
+                  .row
+                    .col-12.text-center
+                      h4
+                        img(src='/images/reservations/icons/paypal.svg', height='20px')
+                        |
+                        |
+                        strong PAY WITH PAYPAL
+                  .row
+                    .col-6.text-end
+                      p Subtotal
+                    .col-6
+                      p
+                        | $
+                        |
+                        span#price-paypal-subtotal
+
+                  #step-3-paypal-extras-grocery.row
+                    .col-6.text-end
+                      p Grocery Stop
+                    .col-6
+                      p
+                        | $
+                        |
+                        span#price-paypal-extras-grocery 30
+
+                  .row
+                    .col-6.text-end
+                      p
+                        strong Tax VAT
+                    .col-6
+                      p
+                        | $
+                        |
+                        strong#price-paypal-tax
+
+                  .row
+                    .col-6.text-end
+                      p
+                        strong Total
+                    .col-6
+                      p
+                        | $
+                        |
+                        strong#price-paypal-total
+
+        #paypal-button-container
+          form(action='https://www.paypal.com/cgi-bin/webscr' method='post' target='_top')
+            input(type='hidden' name='cmd' value='_s-xclick')
+            input(type='hidden' name='hosted_button_id' value='EZB4D4L5V95GQ')
+            img(alt='' border='0' src='https://www.paypalobjects.com/en_US/i/scr/pixel.gif' width='1' height='1')

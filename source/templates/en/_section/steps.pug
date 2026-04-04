@@ -1,0 +1,182 @@
+section#omakaffee.py-5.bg-white
+    .container.py-lg-5
+        .row.g-5
+            .col-lg-6
+                p.text-uppercase.ls-2.text-primary.fw-semibold.mb-2(data-i18n='omakaffee.label') El Ritual
+                h2.display-5.fw-bold.mb-4(data-i18n='omakaffee.title')
+                    | Experiencia
+                    br
+                    span.fst-italic Caf&eacute; Omakase
+                p.lead.fst-italic.text-secondary.mb-4(data-i18n='omakaffee.tagline')
+                    | &quot;Conf&iacute;a en las manos detr&aacute;s de la barra. Entr&eacute;gate a la taza.&quot;
+                .pe-lg-5
+                    p.text-muted.mb-3(data-i18n='omakaffee.desc1')
+                        | Una odisea de 90 minutos. Cinco movimientos distintos. Cinco geometr&iacute;as de preparaci&oacute;n. Cinco maridajes artesanales dise&ntilde;ados para amplificar acideces vibrantes y cuerpos sedosos.
+                    p.text-muted.mb-5(data-i18n='omakaffee.desc2')
+                        | Cerramos la experiencia con algo extraordinario: t&uacute; tomas el tim&oacute;n. Bajo la gu&iacute;a silenciosa de tu barista, dominas el m&eacute;todo t&uacute; mismo.
+                .row.g-3.mb-5.text-center.text-sm-start
+                    .col-4.border-end
+                        .h4.fw-bold.mb-0.text-dark $1,000
+                        small.text-muted.d-block(style='font-size: 0.75rem;' data-i18n='omakaffee.pricing.perGuest') MXN / invitado
+                    .col-4.border-end
+                        .h4.fw-bold.mb-0.text-dark 2+
+                        small.text-muted.d-block(style='font-size: 0.75rem;' data-i18n='omakaffee.pricing.minimum') Invitados m&iacute;n.
+                    .col-4
+                        .h4.fw-bold.mb-0.text-dark 48h
+                        small.text-muted.d-block(style='font-size: 0.75rem;' data-i18n='omakaffee.pricing.notice') Aviso previo
+                a.btn.btn-dark.btn-lg.px-5.rounded-pill.mb-5(href='#contact')
+                    span(data-i18n='omakaffee.cta') Reserva la Experiencia
+                    svg.ms-2(width='14' height='14' viewbox='0 0 14 14' fill='none')
+                        path(d='M2 7h10M8 3l4 4-4 4' stroke='#fff' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round')
+                .mt-4
+                    img.img-fluid.rounded-4.shadow-sm(src='/img/barista-girl-preparing-papayo-ombligon-bean.jpg' alt='Omakase Ritual' loading='lazy')
+            .col-lg-6
+                .ps-lg-4
+                    .act.d-flex.align-items-start.act-item
+                        .act-num.display-6.fw-light.text-primary.opacity-50.me-4(style='min-width: 45px;') I
+                        div
+                            h4.h5.fw-bold(data-i18n='omakaffee.act1.title') Un Viaje Sensorial
+                            p.text-muted.small.mb-0(data-i18n='omakaffee.act1.desc')
+                                | Cinco movimientos a trav&eacute;s de cinco geometr&iacute;as de preparaci&oacute;n &mdash; V60, Chemex, AeroPress, Siphon y cold brew largo.
+                    .act.d-flex.align-items-start.act-item
+                        .display-6.fw-light.text-primary.opacity-50.me-4(style='min-width: 45px;') II
+                        div
+                            h4.h5.fw-bold(data-i18n='omakaffee.act2.title') Maridajes Artesanales
+                            p.text-muted.small.mb-0(data-i18n='omakaffee.act2.desc')
+                                | Cinco bocados intencionales curados por Jazm&iacute;n: bot&aacute;nicos, fermentados y delicados.
+                    .act.d-flex.align-items-start.act-item
+                        .display-6.fw-light.text-primary.opacity-50.me-4(style='min-width: 45px;') III
+                        div
+                            h4.h5.fw-bold(data-i18n='omakaffee.act3.title') Conexi&oacute;n en la Barra
+                            p.text-muted.small.mb-0(data-i18n='omakaffee.act3.desc')
+                                | El invitado toma el tim&oacute;n, dominando un m&eacute;todo bajo la gu&iacute;a silenciosa del barista.
+                    .act.d-flex.align-items-start.act-item
+                        .display-6.fw-light.text-primary.opacity-50.me-4(style='min-width: 45px;') IV
+                        div
+                            h4.h5.fw-bold(data-i18n='omakaffee.act4.title') Perfil a Medida
+                            p.text-muted.small.mb-0(data-i18n='omakaffee.act4.desc')
+                                | Adaptamos los par&aacute;metros de extracci&oacute;n completamente a tu camino sensorial e intenci&oacute;n diet&eacute;tica.
+                    .act.d-flex.align-items-start.act-item
+                        .display-6.fw-light.text-primary.opacity-50.me-4(style='min-width: 45px;') V
+                        div
+                            h4.h5.fw-bold(data-i18n='omakaffee.act5.title') La Narrativa del Origen
+                            p.text-muted.small.mb-0(data-i18n='omakaffee.act5.desc')
+                                | Cada taza acompa&ntilde;ada de su historia: el agricultor, la altitud y el m&eacute;todo de procesamiento.
+style.
+    #omakaffee {
+        background: var(--bg-canvas)
+    }
+
+    .ritual-layout {
+        display: grid;
+        grid-template-columns: 1fr 1.2fr;
+        gap: 8rem;
+        align-items: center
+    }
+
+    .ritual-left .label {
+        margin-bottom: 1.5rem
+    }
+
+    .ritual-left h2 {
+        font-size: clamp(2.2rem, 4vw, 3.5rem);
+        margin-bottom: 1.5rem
+    }
+
+    .ritual-left .tagline {
+        font-family: var(--serif);
+        font-style: italic;
+        font-size: 1.2rem;
+        color: var(--text-mid);
+        margin-bottom: 2rem;
+        line-height: 1.7
+    }
+
+    .ritual-left p {
+        font-size: .9rem;
+        font-weight: 300;
+        line-height: 1.85;
+        color: var(--text-mid);
+        margin-bottom: 2rem
+    }
+
+    .ritual-pricing {
+        display: flex;
+        gap: 2rem;
+        padding: 2rem;
+        background: var(--bg-warm);
+        border-radius: var(--radius);
+        margin-bottom: 2.5rem
+    }
+
+    .ritual-price-item {
+        flex: 1
+    }
+
+    .ritual-price-item .num {
+        font-family: var(--serif);
+        font-size: 1.8rem;
+        font-weight: 300;
+        color: var(--accent-roast)
+    }
+
+    .ritual-price-item .lbl {
+        font-size: .65rem;
+        letter-spacing: .12em;
+        text-transform: uppercase;
+        color: var(--text-pale);
+        margin-top: .2rem
+    }
+
+    .acts-list {
+        display: flex;
+        flex-direction: column;
+        gap: 1px
+    }
+
+    .act {
+        padding: 2rem 2.5rem;
+        background: #f2ede4;
+        display: flex;
+        gap: 1.5rem;
+        align-items: flex-start;
+        transition: background .4s, transform .4s
+    }
+
+    .act:hover {
+        background: var(--accent-light);
+        transform: translate(4px)
+    }
+
+    .act-num {
+        font-family: var(--serif);
+        font-size: 2.5rem;
+        font-weight: 300;
+        color: var(--accent-light);
+        line-height: 1;
+        flex-shrink: 0;
+        width: 50px;
+        transition: color .4s
+    }
+
+    .act:hover .act-num {
+        color: var(--accent-roast)
+    }
+
+    .act-text h4 {
+        font-family: var(--serif);
+        font-size: 1.05rem;
+        font-weight: 400;
+        margin-bottom: .5rem
+    }
+
+    .act-text p {
+        font-size: .82rem;
+        font-weight: 300;
+        color: var(--text-mid);
+        line-height: 1.7
+    }
+    .ls-2 { letter-spacing: 2px; }
+    .act-item { transition: opacity 0.3s; }
+    .act-item:hover { opacity: 0.8; }
+    .text-primary { color: #C04B20 !important; } /* Ajuste al color ocre de tu marca */

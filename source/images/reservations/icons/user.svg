@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <path d="M0 0L24 0L24 24L0 24L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="user-identity-svgrepo-com">
+    <path d="M0 0L24 0L24 24L0 24L0 0Z" id="Background" fill="none" stroke="none" />
+    <g clip-path="url(#mask_1)">
+      <path d="M0 5.625C0 2.5184 2.5184 0 5.625 0C8.7316 0 11.25 2.5184 11.25 5.625C11.25 8.7316 8.7316 11.25 5.625 11.25C2.5184 11.25 0 8.7316 0 5.625Z" transform="translate(6.374878 1.5)" id="path839" fill="#000000" stroke="none" />
+      <path d="M11 0C17.094 0 22 1.784 22 4L22 8L0 8L0 4C0 1.784 4.906 0 11 0L11 0Z" transform="translate(1 14.958313)" id="rect841" fill="#000000" stroke="none" />
+    </g>
+  </g>
+</svg>

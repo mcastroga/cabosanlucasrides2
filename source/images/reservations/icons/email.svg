@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg width="24px" height="24px" viewBox="0 0 24 24" version="1.1" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg">
+  <desc>Created with Lunacy</desc>
+  <defs>
+    <path d="M0 0L24 0L24 24L0 24L0 0Z" id="path_1" />
+    <clipPath id="mask_1">
+      <use xlink:href="#path_1" />
+    </clipPath>
+  </defs>
+  <g id="email-1572-svgrepo-com">
+    <path d="M0 0L24 0L24 24L0 24L0 0Z" id="Background" fill="none" stroke="none" />
+    <g clip-path="url(#mask_1)">
+      <g id="Page-1" transform="translate(1 2.5)">
+        <g id="Dribbble-Light-Preview">
+          <g id="icons">
+            <path d="M0 1.24262L11.0011 12.4285L22 1.24262L22 0L0 0L0 1.24262ZM0 4.62205L11 15.8004L22 4.62205L22 19L0 19L0 4.62205Z" id="email-[#1572]" fill="#000000" fill-rule="evenodd" stroke="none" />
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

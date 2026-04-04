@@ -1,0 +1,148 @@
+#step-2.row
+  form.col-sm-12
+    .info.info-container
+      .row
+        #form-container-name.col-6.position-relative
+          a#button-name.book-button
+            label Full name
+            .container-book-button
+              .book-image
+                img(src='/images/reservations/icons/user.svg')
+              .book-text
+                input#form-name(type="text" name="name")
+
+        #form-container-phone.col-6.position-relative
+          a#button-phone.book-button
+            label Phone
+            .container-book-button
+              .book-image
+                img(src='/images/reservations/icons/phone.svg')
+              .book-text
+                input#form-phone(type="number" name="phone")
+
+        #form-container-email.col-12.position-relative
+          a#button-email.book-button
+            label Email
+            .container-book-button
+              .book-image
+                img(src='/images/reservations/icons/email.svg')
+              .book-text
+                input#form-email(type="text" name="email")
+
+        #form-container-airline.col-6.position-relative
+          a#button-airline.book-button.ready
+            label#arrival-airline Arrival airline
+            label#departure-airline Departure airline
+            .container-book-button
+              .book-image
+                img(src='/images/reservations/icons/plane-2.svg')
+              .book-text
+                select#form-arrival-airline
+                  option(name="arrivalairline" value="Aeromexico") Aeromexico
+                  option(name="arrivalairline" value="Air Canada") Air Canada
+                  option(name="arrivalairline" value="Alaska Airlines") Alaska Airlines
+                  option(name="arrivalairline" value="American Airlines") American Airlines
+                  option(name="arrivalairline" value="Delta Airlines") Delta Airlines
+                  option(name="arrivalairline" value="JetBlue") JetBlue
+                  option(name="arrivalairline" value="Southwest") Southwest
+                  option(name="arrivalairline" value="Spirit") Spirit
+                  option(name="arrivalairline" value="Sun Country") Sun Country
+                  option(name="arrivalairline" value="United Airlines") United Airlines
+                  option(name="arrivalairline" value="Viva Aerobus") Viva Aerobus
+                  option(name="arrivalairline" value="Volaris") Volaris
+                  option(name="arrivalairline" value="WestJet") WestJet
+
+        #form-container-flight.col-6.position-relative
+          a#button-flight.book-button
+            label#arrival-flight Flight number
+            label#departure-flight Flight number
+            .container-book-button
+              .book-image
+                img(src='/images/reservations/icons/plane-2.svg')
+              .book-text
+                input#form-arrival-flight(type="text" name="flight")
+
+
+      #is-roundtrip.row
+        #form-container-departure-airline.col-6.position-relative
+          a#button-departure-airline.book-button.ready
+            label Departure airline
+            .container-book-button
+              .book-image
+                img(src='/images/reservations/icons/plane-2.svg')
+              .book-text
+                select#form-departure-airline
+                  option(name="arrivalairline" value="Aeromexico") Aeromexico
+                  option(name="arrivalairline" value="Air Canada") Air Canada
+                  option(name="arrivalairline" value="Alaska Airlines") Alaska Airlines
+                  option(name="arrivalairline" value="American Airlines") American Airlines
+                  option(name="arrivalairline" value="Delta Airlines") Delta Airlines
+                  option(name="arrivalairline" value="JetBlue") JetBlue
+                  option(name="arrivalairline" value="Southwest") Southwest
+                  option(name="arrivalairline" value="Spirit") Spirit
+                  option(name="arrivalairline" value="Sun Country") Sun Country
+                  option(name="arrivalairline" value="United Airlines") United Airlines
+                  option(name="arrivalairline" value="Viva Aerobus") Viva Aerobus
+                  option(name="arrivalairline" value="Volaris") Volaris
+                  option(name="arrivalairline" value="WestJet") WestJet
+
+        #form-container-departure-flight.col-6.position-relative
+          a#button-departure-flight.book-button.ready
+            label Flight number
+            .container-book-button
+              .book-image
+                img(src='/images/reservations/icons/plane-2.svg')
+              .book-text
+                input#form-departure-flight(type="text" name="flight")
+
+      .row
+        #form-container-comments.col-6.position-relative
+          a#button-comments.book-button.ready
+            label Comments
+            .container-book-button
+              .book-image
+                img(src='/images/reservations/icons/comments.svg')
+              .book-text
+                input#form-comments(name="comments" type="text")
+
+        #form-container-extras-grocery.col-6.position-relative
+          a.book-button.checkbox.ready
+            .book-image-checkbox
+              input#form-extras-grocery.form-check-input(type="checkbox", value="", name='grocery')
+            .book-text-checkbox
+              label.form-check-label(for="form-extras-grocery")
+                | Grocery Stop
+                br
+                | (30 min for 30 USD)
+
+        #form-container-extras-babyseat.col-6.position-relative
+          a#button-babyseat.book-button.ready
+            label.special Baby Seat
+            .container-book-button
+              .book-image
+                img(src='/images/reservations/icons/baby-seat.svg')
+              .book-text
+                select#form-extras-babyseat
+                  option(name="babyseat" value="0") 0
+                  option(name="babyseat" value="1") 1
+                  option(name="babyseat" value="2") 2
+                  option(name="babyseat" value="3") 3
+
+        #form-container-extras-boosterseat.col-6.position-relative
+          a#button-boosterseat.book-button.ready
+            label.special Car Seat
+            .container-book-button
+              .book-image
+                img(src='/images/reservations/icons/baby-seat.svg')
+              .book-text
+                select#form-extras-boosterseat
+                  option(name="boosterseat" value="0") 0
+                  option(name="boosterseat" value="1") 1
+                  option(name="boosterseat" value="2") 2
+                  option(name="boosterseat" value="3") 3
+
+
+
+      .row
+        .col-sm-12
+          #wrapper-submit-step-2
