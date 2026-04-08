@@ -5,8 +5,6 @@ section#banner
       button(type='button' data-bs-target='#banner-hero' data-bs-slide-to='1' aria-label='Slide 2')
       button(type='button' data-bs-target='#banner-hero' data-bs-slide-to='2' aria-label='Slide 3')
       button(type='button' data-bs-target='#banner-hero' data-bs-slide-to='3' aria-label='Slide 4')
-      button(type='button' data-bs-target='#banner-hero' data-bs-slide-to='4' aria-label='Slide 5')
-      button(type='button' data-bs-target='#banner-hero' data-bs-slide-to='5' aria-label='Slide 5')
 
     .carousel-inner
       .carousel-item.active
@@ -17,10 +15,6 @@ section#banner
         .img-banner.img-03
       .carousel-item
         .img-banner.img-04
-      .carousel-item
-        .img-banner.img-05
-      .carousel-item
-        .img-banner.img-06
 
     button.carousel-control-prev(type='button' data-bs-target='#banner-hero' data-bs-slide='prev')
       span.carousel-control-prev-icon(aria-hidden='true')
@@ -28,3 +22,32 @@ section#banner
     button.carousel-control-next(type='button' data-bs-target='#banner-hero' data-bs-slide='next')
       span.carousel-control-next-icon(aria-hidden='true')
       span.visually-hidden Next
+
+style.
+  section#banner { background-color: #{backgroundColor}; margin-top: 100px; position: relative; }
+  section#banner #banner-hero { clip-path: ellipse(100% 100% at 50% 0%); }
+  section#banner #banner-hero .carousel-item .img-banner { height: 600px; width: 100%; }
+  section#banner #banner-hero .carousel-item .img-01 { background: url("/images/banners/transportation-for-less-01.jpg") no-repeat center / contain; }
+  section#banner #banner-hero .carousel-item .img-02 { background: url("/images/banners/transportation-for-less-02.jpg") no-repeat center / contain; }
+  section#banner #banner-hero .carousel-item .img-03 { background: url("/images/banners/transportation-for-less-03.jpg") no-repeat center / contain; }
+  section#banner #banner-hero .carousel-item .img-04 { background: url("/images/banners/transportation-for-less-04.jpg") no-repeat center / contain; }
+  section#banner #banner-hero .carousel-indicators { margin-bottom: 30px; }
+  section#banner #banner-hero .carousel-indicators button { background-color: #{BannerColor2}; border: 0; border-radius: 50%; margin-left: 3px; margin-right: 3px; height: 20px; opacity: 1; width: 20px; }
+  section#banner #banner-hero .carousel-indicators button.active { background-color: #{BannerColor3}; }
+  @media(max-width: 2080px){
+    section#banner #banner-hero .carousel-item .img-banner { height: 800px; }
+    section#banner #banner-hero .carousel-item .img-01, section#banner #banner-hero .carousel-item .img-02, section#banner #banner-hero .carousel-item .img-03, section#banner #banner-hero .carousel-item .img-04 { background-size: cover; }
+  }
+  @media(max-width: 1500px){
+    section#banner #banner-hero .carousel-item .img-banner { height: 700px; }
+  }
+  @media(max-width: 1200px){
+    section#banner #banner-hero .carousel-item .img-banner { height: 500px; }
+  }
+  @media(max-width: 1080px){
+    section#banner #banner-hero .carousel-item .img-banner { height: 400px; }
+  }
+  @media(max-width: 767px){
+    section#banner #banner-hero .carousel-item .img-banner { height: 360px; }
+    section#banner #banner-hero .carousel-indicators { display: none; }
+  }

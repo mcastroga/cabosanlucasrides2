@@ -1,57 +1,45 @@
-section#story.py-5.bg-white
+section#story
     .container.py-lg-5
-        .row.g-5.align-items-center
+        .row.align-items-center
             .col-lg-6.story-left
-                .mb-4.reveal
-                    span.text-uppercase.ls-2.fw-semibold.text-secondary.small(data-i18n='story.label') Nuestra Historia
-                h2.display-5.fw-bold.mb-4.reveal.reveal-delay-1
-                    | Las Manos
-                    br
-                    span.fst-italic Detr&aacute;s de SLOW
+                .mb-2
+                    span.text-uppercase.ls-2.fw-semibold.text-secondary.small Our Story
+                h2.display-5.fw-bold.mb-4
+                    | What Make Us Different
                 .pe-lg-4
-                    p.text-muted.mb-3.reveal.reveal-delay-2(data-i18n='story.p1')
-                        | En SLOW, creemos que el caf&eacute; de especialidad es un puente entre la generosidad de la naturaleza y la precisi&oacute;n humana. Cada taza que preparamos traza un viaje &mdash; desde suelos volc&aacute;nicos y manos cuidadosas en fincas remotas, hasta la geometr&iacute;a silenciosa de un recipiente de preparaci&oacute;n.
-                    p.text-muted.mb-5.reveal.reveal-delay-3(data-i18n='story.p2')
-                        | Somos tres perspectivas unidas por una filosof&iacute;a: las cosas m&aacute;s finas requieren tiempo e intenci&oacute;n. No apresuramos. No comprometemos. Simplemente preparamos.
-                .mt-4.reveal.reveal-delay-4
-                    img.img-fluid.rounded-4.shadow-sm(src='/img/slow-orange-with-ice-cold-brew-hands.jpg' alt='Hands holding an iced cold brew at SLOW' loading='lazy')
+                    p.text-muted.mb-3
+                        | At Cabo San Lucas Rides, we believe that transportation is not just about moving from one point to another; it is the first and last impression of your journey. Since 2021, we have curated every detail to ensure your travel experience reflects the luxury and tranquility of the Baja.
+                    p.text-muted.mb-3
+                        | Our philosophy is built on the perfect balance of local hospitality and executive precision. We don’t just drive; we navigate with intention, ensuring your comfort is never compromised.
+                    p.text-muted
+                        | Simply premium. Simply on time.
             .col-lg-6.story-right
                 .d-flex.flex-column.gap-4.ps-lg-4
-                    .card.border-0.bg-light.rounded-4.p-4.reveal.reveal-delay-1
+                    .storycard.card
                         .d-flex.gap-4.align-items-start
-                            .artisan-icon.flex-shrink-0
-                                svg(width='28' height='28' viewbox='0 0 28 28' fill='none' aria-hidden='true')
-                                    path(d='M14 4C14 4 6 10 6 18c0 4 3.5 6 8 6s8-2 8-6c0-8-8-14-8-14z' stroke='#C04B20' stroke-width='1.2' fill='none')
-                                    line(x1='14' y1='24' x2='14' y2='10' stroke='#C04B20' stroke-width='1' stroke-dasharray='2 2')
                             div
-                                .h5.fw-bold.mb-0 Jazm&iacute;n
-                                .small.text-uppercase.fw-semibold.text-primary.mb-2(data-i18n='artisan.jasmin.title') La Alquimista de Infusiones
-                                p.card-text.small.text-muted.mb-0(data-i18n='artisan.jasmin.desc')
-                                    | El alma de la armon&iacute;a bot&aacute;nica y la pasteler&iacute;a. Ella compone los maridajes sensoriales que transforman una cata en un poema.
-                    .card.border-0.bg-light.rounded-4.p-4.reveal.reveal-delay-2
+                                h5 The Fleet
+                                h6 THE PINNACLE OF COMFORT
+                                p
+                                    | Modern, meticulously maintained vehicles. From executive SUVs to luxury vans, our fleet is the silent engine of your peace of mind.
+                    .storycard.card
                         .d-flex.gap-4.align-items-start
-                            .artisan-icon.flex-shrink-0
-                                svg(width='28' height='28' viewbox='0 0 28 28' fill='none' aria-hidden='true')
-                                    path(d='M8 10h12l-2 10H10L8 10z' stroke='#C04B20' stroke-width='1.2' fill='none')
-                                    circle(cx='14' cy='7' r='3' stroke='#C04B20' stroke-width='1.2' fill='none')
-                                    line(x1='14' y1='4' x2='14' y2='2' stroke='#C04B20' stroke-width='1.2')
                             div
-                                .h5.fw-bold.mb-0 Ionattan
-                                .small.text-uppercase.fw-semibold.text-primary.mb-2(data-i18n='artisan.ionattan.title') El Maestro de la Extracci&oacute;n
-                                p.card-text.small.text-muted.mb-0(data-i18n='artisan.ionattan.desc')
-                                    | Precisi&oacute;n destilada en espresso. &Eacute;l controla el tiempo, la presi&oacute;n y la temperatura con la calma de un artesano.
-                    .card.border-0.bg-light.rounded-4.p-4.reveal.reveal-delay-3
+                                h5 The Chauffeurs
+                                h6 MASTERS OF THE ROAD
+                                p
+                                    | Bilingual experts with deep local knowledge. They control time and logistics with the calm of a seasoned professional, ensuring safety in every mile.
+                    .storycard.card
                         .d-flex.gap-4.align-items-start
-                            .artisan-icon.flex-shrink-0
-                                svg(width='28' height='28' viewbox='0 0 28 28' fill='none' aria-hidden='true')
-                                    path(d='M8 6h12L14 22 8 6z' stroke='#C04B20' stroke-width='1.2' fill='none')
-                                    line(x1='14' y1='22' x2='14' y2='26' stroke='#C04B20' stroke-width='1.2')
                             div
-                                .h5.fw-bold.mb-0 Alonso
-                                .small.text-uppercase.fw-semibold.text-primary.mb-2(data-i18n='artisan.alonso.title') El Arquitecto del Grano
-                                p.card-text.small.text-muted.mb-0(data-i18n='artisan.alonso.desc')
-                                    | La ciencia de la extracci&oacute;n y la exploraci&oacute;n del terroir. &Eacute;l mapea el sabor a trav&eacute;s de variables como molienda y temperatura.
+                                h5 The Service
+                                h6 ARCHITECTS OF EXPERIENCE
+                                p
+                                    | Tailored logistics that map your needs. We manage the variables of arrival times and routes so you can focus on the beauty of Los Cabos.
 style.
+    section#story { background-color: #{color1}; padding-top: 3rem !important; padding-bottom: 3rem !important; }
+    section#story .storycard { background-color: #{color3}; border: 0; border-radius: 20px; padding: 1.5rem !important }
+    section#story .storycard h5 { font-size: 24px; font-weight: 700 !important; margin-bottom: 0 !important; }
+    section#story .storycard h6 { color: #{color5}; font-size: 18px; font-weight: 600; text-transform: uppercase; }
+    section#story .storycard p { color: #{color6}; font-size: 16px; font-weight: 400; }
     .ls-2 { letter-spacing: 2px; }
-    .text-primary { color: #C04B20 !important; }
-    .bg-light { background-color: #FAF9F6 !important; } /* Tono crema sutil */
