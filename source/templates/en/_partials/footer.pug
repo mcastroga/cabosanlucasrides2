@@ -1,136 +1,55 @@
-section#footer-3
-  .container.py-lg-4
-    .row.g-4.mb-5
-      .col-lg-4.col-md-12.mb-4.mb-lg-0
+section#footer.version-3.py-5
+  .container.py-lg-5
+    .row
+      .col-12.col-sm-12.col-md-4.col-lg-4
         .footer-brand
           .d-flex.align-items-center.mb-3
-            a.text-decoration-none.me-2(href='/' aria-label='SLOW home')
-              img.img-fluid(src='/slow-logo.svg' alt='SLOW' width='80' height='35')
-            span.badge.rounded-pill.bg-light.text-muted.fw-normal.border(style='font-size: 0.7rem;') v0.1.1
-          p.text-muted.mb-4.pe-lg-5(data-i18n='footer.tagline')
-            | Un santuario de caf&eacute; de especialidad en el coraz&oacute;n de San Jos&eacute; del Cabo. Cada taza, una ceremonia silenciosa.
-          .social-links.d-flex.gap-3
-            a.text-secondary.text-decoration-none.transition-hover(href='https://www.instagram.com/slow_specialtycoffee/' target='_blank' rel='noopener' aria-label='Instagram')
-              svg(width='20' height='20' viewbox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round')
-                rect(x='2' y='2' width='20' height='20' rx='5' ry='5')
-                path(d='M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z')
-                line(x1='17.5' y1='6.5' x2='17.51' y2='6.5')
-            a.text-secondary.text-decoration-none.transition-hover(href='https://wa.me/526241665549' target='_blank' rel='noopener' aria-label='WhatsApp')
-              svg(width='20' height='20' viewbox='0 0 24 24' fill='currentColor')
-                path(d='M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 0 1-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 0 1-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 0 1 2.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0 0 12.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 0 0 5.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 0 0-3.48-8.413z')
-            a.text-secondary.text-decoration-none.transition-hover(href='https://maps.google.com' target='_blank' rel='noopener' aria-label='Google Maps')
-              svg(width='20' height='20' viewbox='0 0 24 24' fill='none' stroke='currentColor' stroke-width='1.5' stroke-linecap='round' stroke-linejoin='round')
-                path(d='M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z')
-                circle(cx='12' cy='10' r='3')
-      .col-6.col-md-4.col-lg-2
-        h4.h6.fw-bold.text-uppercase.ls-1.mb-3(data-i18n='footer.nav.title') Navegar
-        ul.list-unstyled
-          li.mb-2
-            a.text-muted.text-decoration-none.small(href='/history' data-i18n='nav.story') Historia
-          li.mb-2
-            a.text-muted.text-decoration-none.small(href='/menu' data-i18n='nav.menu') Men&uacute;
-          li.mb-2
-            a.text-muted.text-decoration-none.small(href='/location' data-i18n='nav.findus') Vis&iacute;tanos!
-          li.mb-2
-            a.text-muted.text-decoration-none.small(href='/news' data-i18n='nav.news') Revista
-      .col-6.col-md-4.col-lg-3
-        h4.h6.fw-bold.text-uppercase.ls-1.mb-3(data-i18n='footer.experiences.title') Experiencias
-        ul.list-unstyled
-          li.mb-2
-            a.text-muted.text-decoration-none.small(href='/experiences/omakaffee' data-i18n='nav.omakaffee') Omakaffee
-          li.mb-2
-            a.text-muted.text-decoration-none.small(href='/experiences/coffee-flight' data-i18n='nav.flight') Coffee Flight
-          li.mb-2
-            a.text-muted.text-decoration-none.small(href='/experiences/private-events' data-i18n='nav.private') Eventos Privados
-          li.mb-2
-            a.text-muted.text-decoration-none.small(href='/experiences' data-i18n='nav.experiences') Experiencias
-      .col-6.col-md-4.col-lg-3
-        h4.h6.fw-bold.text-uppercase.ls-1.mb-3(data-i18n='footer.more.title') M&aacute;s
-        ul.list-unstyled
-          li.mb-2
-            a.text-muted.text-decoration-none.small(href='/experiences/coffee-club' data-i18n='nav.club') Coffee Club
-          li.mb-2
-            a.text-muted.text-decoration-none.small(href='/experiences/coffee-catering' data-i18n='nav.catering') Catering
-          li.mb-2
-            a.text-muted.text-decoration-none.small(href='/experiences/tools' data-i18n='nav.tools') Herramientas
-          li.mb-2
-            a.text-muted.text-decoration-none.small(href='/contact' data-i18n='nav.reserve') Reservar
-    .pt-4.border-top
-style.
-  /* Estilo adicional para coherencia de marca */
-  .ls-1 { letter-spacing: 1px; }
-  .transition-hover { transition: opacity 0.2s ease; }
-  .transition-hover:hover { opacity: 0.7; }
-  .site-footer a:hover { color: #C04B20 !important; } /* Ocre característico */
+            a.me-2(href='/')
+              img.img-fluid(src='/images/logo/cabo-san-lucas-rides.png')
 
-
-section#footer
-  .container
-    .theme-page-footer-top.row
-      .col-12.col-sm-12.col-md-4.footer-logo
-        img(src='/images/logo/transportation-for-less.svg', width='80%')
-      .col-12.col-sm-12.col-md-4
-        .theme-component-feature-item
-          .theme-component-feature-item-icon
-            i.fa-solid.fa-location-pin
-          .theme-component-feature-item-header Address
-        p Calle Jose Maria Chavez between Francisco Fisher and Fernando Burgoin, El Zacatal, 23427 San José del Cabo, B.C.S.
-
-
-      .col-12.col-sm-12.col-md-4
-        .theme-component-feature-item
-          .theme-component-feature-item-icon
-            i.fa-solid.fa-phone
-          .theme-component-feature-item-header Phones
-        p +52 (624) 108 5583
-
-    .row.theme-page-footer-bottom
-      .col-12.col-md-6
-        p
-          a(href='/transportation-to-baja-point-the-westin-los-cabos-resort-villas/')
-            span Transportation to
-            |  Baja Point The Westin Los Cabos Resort Villas
-        p
-          a(href='/transportation-to-cabo-azul-resort/')
-            span Transportation to
-            |  Cabo Azul Resort
-        p
-          a(href='/transportation-to-dreams-los-cabos/')
-            span Transportation to
-            |  Dreams Los Cabos
-        p
-          a(href='/transportation-to-drift-san-jose-del-cabo/')
-            span Transportation to
-            |  Drift San Jose del Cabo
-      .col-12.col-md-6
-        p
-          a(href='/transportation-to-el-dorado-residences/')
-            span Transportation to
-            |  El Dorado Residences
-        p
-          a(href='/transportation-to-hilton-resort-los-cabos/')
-            span Transportation to
-            |  Hilton Resort Los Cabos
-        p
-          a(href='/transportation-to-hyatt-ziva-los-cabos/')
-            span Transportation to
-            |  Hyatt Ziva Los Cabos
-        p
-          a(href='/transportation-to-the-westin-resort-and-spa/')
-            span Transportation to
-            |  The Westin Resort and Spa
-
-      .col-12.text-end
-        br
-        a.theme-icon-social-facebook(href='https://www.facebook.com/caboairportrideforless' title='Facebook' target='_blank')
-          i.fa-brands.fa-facebook-f
-        a.theme-icon-social-instagram(href='https://www.instagram.com/transportationforless/' title='Instagram' target='_blank')
-          i.fa-brands.fa-instagram
+      .col-6.col-sm-6.col-md-4.col-lg-4
+        h4 Menu
+        ul
+          li
+            a(href='/index.html#welcome') Private Transportation
+          li
+            a(href='/experiences/coffee-flight') Why Choose Us
+          li
+            a(href='/experiences/private-events') What Make Us Different
+          li
+            a(href='/experiences') Book Now
+          li
+            a(href='/experiences') Arrival Guide
+          li
+            a(href='/experiences') Testimonials
+      .col-6.col-sm-6.col-md-4.col-lg-4
+        h4 Another Links
+        ul
+          li
+            a(href='https://transportationforless.com') Transportation For Less
+          li
+            a(href='https://airportcabovip.com') Airport Cabo Vip
+          li
+            a(href='https://caboisfun.com') Cabo Is Fun
+    .row
+      .col-12
+        a(href='https://transportationforless.com').footer-company
+          | Cabo San Lucas Rides is company of Transportation For Less
+          img(src='/images/logo/transportation-for-less-small.svg', height='60px')
+    .row
+      .col-12
+        .social-links.text-center
+          a(href='https://www.facebook.com/caboairportrideforless/' target='_blank' rel='nofollow' aria-label='Facebook')
+            i.fa-brands.fa-facebook-f
+          a(href='https://www.instagram.com/transportationforless/' target='_blank' rel='nofollow' aria-label='Instagram')
+            i.fa-brands.fa-instagram
+          a(href='https://wa.me/+526241085583?text=' target='_blank' rel='nofollow' aria-label='WhatsApp')
+            i.fa-brands.fa-whatsapp
 
 section#design
-  .pt-4.border-top
   .container
     .row
+      .col-12.border-top
       .col-12.col-sm-12.col-md-8
         p © 2021 - 2026 Cabo San Lucas Rides. All rights reserved
       .col-12.col-sm-12.col-md-4.design
@@ -140,3 +59,112 @@ section#design
 .whatsapp-circle
   a(href='https://wa.me/+526241085583?text=')
     i.fa-brands.fa-whatsapp
+
+style.
+  section#footer.version-3 {
+    background-color: #{color7};
+  }
+  section#footer.version-3 h4 {
+    color: #{color4};
+    font-weight: 700;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+  }
+  section#footer.version-3 ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  section#footer.version-3 ul li {
+    margin-bottom: 10px;
+  }
+  section#footer.version-3 ul li a {
+    color: #{color1};
+    font-size: 18px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-decoration: none;
+  }
+  section#footer.version-3 ul li a:hover {
+    color: #{color5};
+    transform: 2s;
+  }
+  section#footer.version-3 .social-links {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  section#footer.version-3 .social-links a {
+    margin: 0 15px;
+  }
+  section#footer.version-3 .social-links a svg {
+    color: #{color1};
+    height: 44px;
+  }
+  section#footer.version-3 .footer-company {
+    align-items: center;
+    color: #{color1};
+    display: flex;
+    font-size: 24px;
+    font-weight: 400;
+    justify-content: center;
+    letter-spacing: 2px;
+    padding: 30px 0;
+    text-transform: uppercase;
+  }
+  section#footer.version-3 .footer-company img {
+    margin-left: 15px;
+  }
+  @media(max-width: 1199px){
+    section#footer.version-3 .footer-company {
+      font-size: 22px;
+    }
+  }
+  @media (max-width: 991px) {
+    section#footer.version-3 .footer-company {
+      text-align: center;
+      padding: 30px 15px;
+      width: 100%;
+    }
+  }
+  section#design {
+    background-color: #{color7};
+    font-size: 14px;
+    height: auto;
+    overflow: hidden;
+    padding: 0 0 30px;
+    width: 100%;
+  }
+  section#design .border-top {
+    border-top: 1px solid #{colo1};
+    padding-bottom: 30px;
+  }
+  section#design a,
+  section#design p {
+    align-items: center;
+    color: #{color1};
+    font-size: 16px;
+    font-weight: 400;
+    height: 30px;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+  }
+  section#design p {
+    display: flex;
+  }
+  section#design a {
+    display: inline-flex;
+  }
+  section#design a img {
+    margin-right: 4px;
+  }
+  section#design .design {
+    text-align: right;
+  }
+    /* Estilo adicional para coherencia de marca */
+  .ls-1 { letter-spacing: 1px; }
+  .transition-hover { transition: opacity 0.2s ease; }
+  .transition-hover:hover { opacity: 0.7; }
+  .site-footer a:hover { color: #C04B20 !important; } /* Ocre característico */
+

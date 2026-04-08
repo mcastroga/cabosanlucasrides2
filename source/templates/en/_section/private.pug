@@ -2,37 +2,39 @@ section#private.py-5
     .container.py-lg-5
         .row
             .col-12
-                .mb-2
-                    span.text-uppercase.ls-2.fw-semibold.text-secondary.small Luxury & Reliability in Every Mile
-                h2.display-5.fw-bold.mb-4
-                    | Why Choose Our Premium Services
+                h6.top-tile Luxury & Reliability in Every Mile
+                h3.title Why Choose Our Premium Services
         .row.g-4.mb-5
-            .col-md-4
+            .col-12.col-sm-12.col-md-6.col-lg-4
                 .maincard.card.h-100.p-4.transition-hover
                     h4 Premium Private Transfers
                     h5 Start your vacation with first-class comfort
                     p.text-muted.small.flex-grow-1
                         | Avoid the crowds and the wait. We provide seamless, luxury transportation from Los Cabos International Airport (SJD) directly to your resort or villa. With a modern fleet and professional service, we ensure your arrival is as beautiful as the destination..
-            .col-md-4
+            .col-12.col-sm-12.col-md-6.col-lg-4
                 .maincard.card.h-100.p-4.transition-hover
                     h4 Professional Local Expertise
                     h5 Navigate the Baja with peace of mind
                     p.text-muted.small.flex-grow-1
                         | Our bilingual, professional chauffeurs are more than just drivers—they are local experts. Whether you are heading to a world-class golf course or a hidden gem in the Corridor, we guarantee punctual, safe, and stress-free transit every time.
-            .col-md-4
+            .col-12.col-sm-12.col-md-6.col-lg-4
                 .maincard.card.h-100.p-4.transition-hover
                     h4 Tailored Event Logistics
                     h5 Your itinerary, our priority
-                    p.text-muted.small.flex-grow-1
+                    p.text-muted.flex-grow-1
                         | From high-profile weddings and corporate retreats to private nights out at the Marina, we customize our services to meet your specific needs. Experience a bespoke transportation solution that scales with your group, ensuring everyone travels in style.
 
 style.
     section#private { background-color: #{color7}; }
-    section#private h2 { color: #{color1}; }
+    section#private h3 {
+        color: #{color1};
+    }
+    section#private h6 {
+        color: #{color3};
+    }
     section#private .maincard { background-color: #{color5}; }
     section#private h4 { color: #{color3}; margin-bottom: 1rem !important; text-align: center;}
     section#private h5 { align-items: center; color: #{color4}; display: flex; justify-content: center; height: 50px; margin-bottom: 1rem !important; text-align: center;}
-    .ls-2 { letter-spacing: 2px; }
     .transition-hover { transition: all 0.3s ease; }
     .transition-hover:hover {
         background: #{color1} !important;

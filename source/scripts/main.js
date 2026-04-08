@@ -63,6 +63,26 @@ let HOTEL_NAME;
 $( document ).ready(function() {
     updateStep1();
 
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        centeredSlides: true,
+        loop: true,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev",
+        },
+        breakpoints: {
+            992: {
+                slidesPerView: 3,
+            }
+        }
+    });
+
     paypal.Buttons({
         // Set up the transaction
         createOrder: function(data, actions) {

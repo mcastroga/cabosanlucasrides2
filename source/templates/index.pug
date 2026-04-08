@@ -16,7 +16,7 @@
 doctype html
 html
     head
-        title Cabo Airport Transportation | Transportation For Less
+        title Cabo San Lucas Rides | Transportation For Less
         include en/_partials/header-main
         include en/_partials/scripts
     body
@@ -28,6 +28,30 @@ html
         include en/_reservations/mycabotransfers
         include en/_section/steps
         include en/_section/separator-1
-        include en/_section/testimonials
+        include en/_section/testimonials-1
         include en/_partials/footer
         include en/_partials/tails
+
+        style.
+            h1.title,
+            h3.title {
+                font-size: calc(1.425rem + 2.1vw);
+                font-weight: 700;
+                margin-bottom: 3rem;
+                line-height: 1.2;
+            }
+            h6.top-title {
+                color: #{color6};
+                display: inline-block;
+                font-size: 0.875em;
+                font-weight: 600;
+                letter-spacing: 0.125rem;
+                margin-bottom: 0.5rem;
+                text-transform: uppercase;
+            }
+            @media(min-width: 1200px) {
+                h1.title,
+                h3.title {
+                    font-size: 3rem;
+                }
+            }
