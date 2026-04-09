@@ -51,7 +51,7 @@ $Promo                  = $_POST["promo"];
 
 $numero_reserva   = rand(1,100);
 
-$headers .= "From: sistema@transportationforless.com \r\n";
+$headers .= "From: m8wxng81ctwn@transportationforless.com \r\n";
 $headers .= "Bcc: mario.castro.gallegos@gmail.com \r\n";
 $headers .= "MIME-Version: 1.0\r\n";
 $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
@@ -69,7 +69,7 @@ if ($validationOK) {
     $message .= "</head>\n";
     $message .= "<body>\n";
     $message .= "<table style=\"border: 2px solid #000; font-size: 14px; text-align: center; width: 800px;\">\n";
-    $message .= "<tr style=\"width: 796px\"><td colspan=2 style=\"background: url(http://cabosanlucasrides.com/images/backgrounds/header-banner.jpg) no-repeat; height: 200px; width: 796px;\"></td></tr>\n";
+    $message .= "<tr style=\"width: 796px\"><td colspan=2 style=\"background: url(http://cabosanlucasrides.com/images/backgrounds/header-banner-2.png) no-repeat; height: 200px; width: 796px;\"></td></tr>\n";
     $message .= "<tr style=\"width: 796px\"><td colspan=2><h1 style=\"font-size: 24px;text-align: center;margin: 0;padding: 0;color: #000; width: 100%;\">Reservation Number: CSLR-$PickupDate-$numero_reserva</h1></td></tr>\n";
     $message .= "<tr style=\"width: 796px\"><td colspan=2 style=\"margin: 0;padding: 5px; font-size: 16px; text-align: center; width: 100%;\">Dear <strong>$Name</strong> thanks for chosing us, for your transportation service.</td></tr>\n";
     $message .= "<tr style=\"width: 796px\"><td colspan=2 style=\"margin: 0;padding: 5px; font-size: 14px; text-align: center; width: 100%;\">YOUR TRANSPORTATION IS CONFIRMED WITH TRANSPORTATION FOR LESS / CABO SAN LUCAS RIDES</td></tr>\n";
