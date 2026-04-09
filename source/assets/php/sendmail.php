@@ -7,7 +7,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
 
 header("Access-Control-Allow-Headers: Content-Type, Accept, Origin");
 header("Content-Type: application/json; charset=UTF-8");
-header('Access-Control-Allow-Origin: https://transportationforless.com');
+header('Access-Control-Allow-Origin: https://cabosanlucasrides.com');
 header("Access-Control-Allow-Methods: GET, PUT, POST, DELETE, OPTIONS");
 header("Access-Control-Max-Age: 3600");
 
@@ -56,7 +56,7 @@ $headers .= "Bcc: mario.castro.gallegos@gmail.com \r\n";
 $headers .= "MIME-Version: 1.0\r\n";
 $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 $to = "transportationforless@gmail.com, $Email";
-$subject = "TFL-$PickupDate-$numero_reserva from Transportation For Less";
+$subject = "TFL-$PickupDate-$numero_reserva from Cabo San Lucas Rides";
 $validationOK=true;
 
 if ($validationOK) {
@@ -69,27 +69,27 @@ if ($validationOK) {
     $message .= "</head>\n";
     $message .= "<body>\n";
     $message .= "<table style=\"border: 2px solid #000; font-size: 14px; text-align: center; width: 800px;\">\n";
-    $message .= "<tr style=\"width: 796px\"><td colspan=2 style=\"background: url(http://transportationforless.com/images/backgrounds/header-banner.jpg) no-repeat; height: 200px; width: 796px;\"></td></tr>\n";
-    $message .= "<tr style=\"width: 796px\"><td colspan=2><h1 style=\"font-size: 24px;text-align: center;margin: 0;padding: 0;color: #000; width: 100%;\">Reservation Number: TFL-$PickupDate-$numero_reserva</h1></td></tr>\n";
+    $message .= "<tr style=\"width: 796px\"><td colspan=2 style=\"background: url(http://cabosanlucasrides.com/images/backgrounds/header-banner.jpg) no-repeat; height: 200px; width: 796px;\"></td></tr>\n";
+    $message .= "<tr style=\"width: 796px\"><td colspan=2><h1 style=\"font-size: 24px;text-align: center;margin: 0;padding: 0;color: #000; width: 100%;\">Reservation Number: CSLR-$PickupDate-$numero_reserva</h1></td></tr>\n";
     $message .= "<tr style=\"width: 796px\"><td colspan=2 style=\"margin: 0;padding: 5px; font-size: 16px; text-align: center; width: 100%;\">Dear <strong>$Name</strong> thanks for chosing us, for your transportation service.</td></tr>\n";
-    $message .= "<tr style=\"width: 796px\"><td colspan=2 style=\"margin: 0;padding: 5px; font-size: 14px; text-align: center; width: 100%;\">YOUR TRANSPORTATION IS CONFIRMED WITH TRANSPORTATION FOR LESS</td></tr>\n";
-    $message .= "<tr style=\"width: 796px\"><td colspan=2 style=\"background-color: #bcadce; color: #fff; margin: 0; padding: 5px; font-size: 14px; text-align: center; width: 100%;\">CLIENT INFORMATION</td></tr>\n";
+    $message .= "<tr style=\"width: 796px\"><td colspan=2 style=\"margin: 0;padding: 5px; font-size: 14px; text-align: center; width: 100%;\">YOUR TRANSPORTATION IS CONFIRMED WITH TRANSPORTATION FOR LESS / CABO SAN LUCAS RIDES</td></tr>\n";
+    $message .= "<tr style=\"width: 796px\"><td colspan=2 style=\"background-color: #212121; color: #fff; margin: 0; padding: 5px; font-size: 14px; text-align: center; width: 100%;\">CLIENT INFORMATION</td></tr>\n";
     $message .= "<tr style=\"width: 796px\"><td colspan=1 style=\"margin: 0;padding: 5px; font-size: 14px; width: 50%;\"><strong>Name: </strong>$Name</td><td colspan=1 style=\"margin: 0;padding: 5px; font-size: 14px; width: 50%;\"><strong>Email: </strong>$Email</td></tr>\n";
     $message .= "<tr style=\"width: 796px\"><td colspan=1 style=\" margin: 0;padding: 5px; font-size: 14px; width: 50%;\"><strong>Phone: </strong>$Phone</td><td colspan=1 style=\"margin: 0;padding: 5px; font-size: 14px; width: 50%;\"><strong>Hotel: </strong>$Hotel</td></tr>\n";
     $message .= "<tr style=\"width: 796px\"><td colspan=1 style=\" margin: 0;padding: 5px; font-size: 14px; width: 50%;\"><strong>Passengers: </strong>$Pax</td><td colspan=1 style=\"margin: 0;padding: 5px; font-size: 14px; width: 50%;\"><strong>Travel type: </strong>$Service</td</tr>\n";
     if ($ServiceType === 'Airport - Hotel') {
-        $message .= "<tr style=\"width: 796px\"><td colspan=2 style=\"background-color: #bcadce; color: #fff; margin: 0; padding: 5px; font-size: 14px; text-align: center; width: 100%;\">ARRIVAL INFORMATION</td></tr>\n";
+        $message .= "<tr style=\"width: 796px\"><td colspan=2 style=\"background-color: #212121; color: #fff; margin: 0; padding: 5px; font-size: 14px; text-align: center; width: 100%;\">ARRIVAL INFORMATION</td></tr>\n";
     } else {
-        $message .= "<tr style=\"width: 796px\"><td colspan=2 style=\"background-color: #bcadce; color: #fff; margin: 0; padding: 5px; font-size: 14px; text-align: center; width: 100%;\">DEPARTURE INFORMATION</td></tr>\n";
+        $message .= "<tr style=\"width: 796px\"><td colspan=2 style=\"background-color: #212121; color: #fff; margin: 0; padding: 5px; font-size: 14px; text-align: center; width: 100%;\">DEPARTURE INFORMATION</td></tr>\n";
     }
     $message .= "<tr style=\"width: 796px\"><td colspan=1 style=\"margin: 0;padding: 5px; font-size: 14px; width: 50%;\"><strong>Pick up: </strong>$FromLocation</td><td colspan=1 style=\" margin: 0;padding: 5px; font-size: 14px; width: 50%;\"><strong>Pick up Date: </strong>$PickupDateFull at $PickupTime</td></tr>\n";
     $message .= "<tr style=\"width: 796px\"><td colspan=1 style=\"margin: 0;padding: 5px; font-size: 14px; width: 50%;\"><strong>Airline: </strong>$ArrivalAirline</td><td colspan=1 style=\" margin: 0;padding: 5px; font-size: 14px; width: 50%;\"><strong>Flight: </strong>$ArrivalFlight</td></tr>\n";
     if($Service === 'Round trip') {
-        $message .= "<tr style=\"width: 796px\"><td colspan=2 style=\"background-color: #bcadce; color: #fff; margin: 0; padding: 5px; font-size: 14px; text-align: center; width: 100%;\">DEPARTURE INFORMATION</ts></tr>\n";
+        $message .= "<tr style=\"width: 796px\"><td colspan=2 style=\"background-color: #212121; color: #fff; margin: 0; padding: 5px; font-size: 14px; text-align: center; width: 100%;\">DEPARTURE INFORMATION</ts></tr>\n";
         $message .= "<tr style=\"width: 796px\"><td colspan=1 style=\"margin: 0;padding: 5px; font-size: 14px; width: 50%;\"><strong>Return: </strong>$ToLocation</td><td colspan=1 style=\" margin: 0;padding: 5px; font-size: 14px; width: 50%;\"><strong>Return Date: </strong>$ReturnDateFull at $ReturnTime</td></tr>\n";
         $message .= "<tr style=\"width: 796px\"><td colspan=1 style=\"margin: 0;padding: 5px; font-size: 14px; width: 50%;\"><strong>Airline: </strong>$DepartureAirline</td><td colspan=1 style=\"margin: 0;padding: 5px; font-size: 14px; width: 50%;\"><strong>Flight: </strong>$DepartureFlight</td></tr>\n";
     }
-    $message .= "<tr style=\"width: 796px\"><td colspan=2 style=\"background-color: #bcadce; color: #fff;  margin: 0; padding: 5px; font-size: 14px; text-align: center; width: 100%;\">ADITIONAL INFORMATION</th></tr>\n";
+    $message .= "<tr style=\"width: 796px\"><td colspan=2 style=\"background-color: #212121; color: #fff;  margin: 0; padding: 5px; font-size: 14px; text-align: center; width: 100%;\">ADITIONAL INFORMATION</th></tr>\n";
     $message .= "<tr style=\"width: 796px\"><td colspan=1 style=\"margin: 0;padding: 5px; font-size: 14px; width: 50%;\"><strong>Vehicle: </strong>$UnitSelected</td>\n";
     if($PaymentType  === 'Cash'){
         $message .= "<td colspan=2 style=\"border: 0px solid #000; margin: 0;padding: 5px; font-size: 14px; height: 30px; line-height: 30px; text-align: left; width: 100%;\"><strong>Price: </strong> $PriceCash USD **Please be prepared to pay in CASH directly to the driver</td></tr>\n";
@@ -99,11 +99,11 @@ if ($validationOK) {
     $message .= "<tr style=\"width: 796px\"><td colspan=1 style=\"padding: 5px; font-size: 14px; width: 50%;\"><strong>Comments: </strong>$Comments</td><td colspan=1 style=\"padding: 5px; font-size: 14px; width: 100%;\"><strong>Promo Code: </strong>$Promo</td></tr>\n";
     $message .= "<tr style=\"width: 796px\"><td colspan=1 style=\"margin: 0;padding: 5px; font-size: 14px; width: 50%;\"><strong>Grocery Stop: </strong>$ExtrasGrocery</td><td colspan=1 style=\"margin: 0;padding: 5px; font-size: 14px; width: 50%;\"><strong>Baby Seat: </strong>$ExtrasBabyseat | <strong>Car Seat: </strong> $ExtrasBoosterseat</td></tr>\n";
     if($ServiceType === 'Airport - Hotel'){
-        $message .= "<tr style=\"width: 796px\"><th colspan=2 style=\"background-color: #bcadce; color: #fff; margin: 0; padding: 5px; font-size: 14px; text-align: center; width: 100%;\">UPON ARRIVAL</th></tr>\n";
+        $message .= "<tr style=\"width: 796px\"><th colspan=2 style=\"background-color: #212121; color: #fff; margin: 0; padding: 5px; font-size: 14px; text-align: center; width: 100%;\">UPON ARRIVAL</th></tr>\n";
         $message .= "<tr style=\"width: 796px\"><td colspan=2 style=\"margin: 0; padding: 5px; font-size: 14px; text-align: center; width: 100%;\">When you arrive at the San Jose del Cabo International Airport, and after crossing custom you will see Timeshare people. Do not stop with the timeshare vendors inside the airport, they will try to confuse you, we do not know any of them. For assistence call to +52 6241085583.</td></tr>\n";
     }
     if($ServiceType === 'Hotel - Airport'){
-        $message .= "<tr style=\"width: 796px\"><th colspan=2 style=\"background-color: #bcadce; color: #fff; margin: 0; padding: 5px; font-size: 14px; text-align: center; width: 100%;\">UPON DEPARTURE</th></tr>\n";
+        $message .= "<tr style=\"width: 796px\"><th colspan=2 style=\"background-color: #212121; color: #fff; margin: 0; padding: 5px; font-size: 14px; text-align: center; width: 100%;\">UPON DEPARTURE</th></tr>\n";
         $message .= "<tr style=\"width: 796px\"><td colspan=2 style=\"margin: 0; padding: 5px; font-size: 14px; text-align: center; width: 100%;\">When you departure from your Hotel, we will be there waiting for you in the lobby. If you have any question please contact us, will be a pleasure to assit you. For assistence call to +52 6241085583.</td></tr>\n";
     }
     $message .= "<tr style=\"width: 796px\"><td colspan=2 style=\"margin: 0;padding: 5px; font-size: 14px; width: 100%;\"><strong>Pickup Time: _________ TBC</strong></td></tr>\n";
