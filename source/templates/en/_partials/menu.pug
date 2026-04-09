@@ -4,11 +4,11 @@ section#top-menu
             .container
                 .navbar-brand(data-aos="fade-right", data-aos-anchor-placement="top-bottom", data-aos-delay="600")
                     a(href="/index.html")
-                button.navbar-toggler.justify-content-end(type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                button.navbar-toggler.justify-content-end(type="button" data-bs-toggle="collapse" data-bs-target="#topmenu"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation")
                     span
-                        img(src='/images/icons/burger-menu-right.svg', height='30px')
-                #navbarNav.collapse.navbar-collapse.justify-content-end
+                        img(src='/images/icons/menu/burger-menu-right.svg', height='30px')
+                #topmenu.collapse.navbar-collapse.justify-content-end
                     ul.navbar-nav
                         li.nav-item
                             a.nav-link(href="#private") Why Choose Us
@@ -20,36 +20,121 @@ section#top-menu
                                     span.elementor-text BOOK NOW
 
 style.
-    section#top-menu { background: #{color7}; border-bottom: 1px solid #000; position: fixed; top: 0; width: 100%; z-index: 999; }
-    section#top-menu #menu { background-color: transparent; height: 100px; width: 100%; z-index: 6; }
-    section#top-menu #menu .navbar-collapse { height: 100%; }
-    section#top-menu #menu .navbar { height: 100px; padding: 10px 0; }
-    section#top-menu #menu .navbar-brand { background: url("/images/logo/cabo-san-lucas-rides.png") no-repeat center / cover; height: 80px; margin: 0; min-width: 196px; padding: 0; }
-    section#top-menu #menu .navbar-brand a { display: block; height: 60px; padding: 0; }
-    section#top-menu #menu .elementor-button { align-items: center; background-color: #{color4}; border: 2px solid #{color4}; border-radius: 30px; color: #{color1}; display: inline-flex; line-height: 48px; padding: 0 20px; text-decoration: none; }
-    section#top-menu #menu .elementor-button .elementor-button-content-wrapper { align-items: center; display: flex; height: auto; }
-    section#top-menu #menu .elementor-button .elementor-button-content-wrapper .elementor-text { font-size: 16px; }
-    section#top-menu #menu .elementor-button:hover { background-color: transparent; color: #{color4}; }
-    section#top-menu #menu .navbar-nav { padding-bottom: 0; }
-    section#top-menu #menu .navbar-nav .nav-link { color: #{color1}; font-size: 20px; font-weight: 400; padding: 0; text-transform: uppercase; }
-    section#top-menu #menu .navbar-nav .nav-item { line-height: 80px; padding-left: 0; padding-right: 40px; }
-    section#top-menu #menu .navbar-nav .nav-item:last-child { padding-right: 0; }
+    section#top-menu {
+        background: #{color7};
+        border-bottom: 1px solid #000;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        z-index: 999;
+    }
+    section#top-menu #menu {
+        background-color: transparent;
+        height: 100px;
+        width: 100%;
+        z-index: 6;
+    }
+    section#top-menu #menu .navbar-collapse {
+        height: 100%;
+    }
+    section#top-menu #menu .navbar {
+        height: 100px;
+        padding: 10px 0;
+    }
+    section#top-menu #menu .navbar-brand {
+        background: url("/images/logo/cabo-san-lucas-rides.png") no-repeat center / cover;
+        height: 80px;
+        margin: 0;
+        min-width: 196px;
+        padding: 0;
+    }
+    section#top-menu #menu .navbar-brand a {
+        display: block;
+        height: 60px;
+        padding: 0;
+    }
+    section#top-menu #menu .elementor-button {
+        align-items: center;
+        background-color: #{color4};
+        border: 2px solid #{color4};
+        border-radius: 30px; color: #{color1};
+        display: inline-flex;
+        line-height: 48px;
+        padding: 0 20px;
+        text-decoration: none;
+    }
+    section#top-menu #menu .elementor-button .elementor-button-content-wrapper {
+        align-items: center;
+        display: flex;
+        height: auto;
+    }
+    section#top-menu #menu .elementor-button .elementor-button-content-wrapper .elementor-text {
+        font-size: 16px;
+    }
+    section#top-menu #menu .elementor-button:hover {
+        background-color: transparent; color: #{color4};
+    }
+    section#top-menu #menu .navbar-nav {
+        padding-bottom: 0;
+    }
+    section#top-menu #menu .navbar-nav .nav-link {
+        color: #{color1};
+        font-size: 20px;
+        font-weight: 400;
+        padding: 0;
+        text-transform: uppercase;
+    }
+    section#top-menu #menu .navbar-nav .nav-item {
+        line-height: 80px;
+        padding-left: 0;
+        padding-right: 40px;
+    }
+    section#top-menu #menu .navbar-nav .nav-item:last-child {
+        padding-right: 0;
+    }
     @media (max-width: 1399px) {
-        section#top-menu section#menu .navbar-brand { height: 80px; min-width: 196px; }
+        section#top-menu section#menu .navbar-brand {
+            height: 80px;
+            min-width: 196px;
+        }
     }
     @media (max-width: 1280px) {
-        section#top-menu #menu .navbar-nav .nav-link { font-size: 18px; }
-        section#top-menu #menu .navbar-nav .nav-item { padding-right: 30px; }
+        section#top-menu #menu .navbar-nav .nav-link {
+            font-size: 18px;
+        }
+        section#top-menu #menu .navbar-nav .nav-item {
+            padding-right: 30px;
+        }
     }
     @media (max-width: 1199px) {
-        section#top-menu #menu .navbar-nav .nav-link { font-size: 16px; }
-        section#top-menu #menu .navbar-nav .nav-item { padding-right: 20px; }
-        section#top-menu #menu .elementor-button { padding: 0 15px; }
-        section#top-menu #menu .elementor-button .elementor-text { font-size: 14px; }
+        section#top-menu #menu .navbar-nav .nav-link {
+            font-size: 16px;
+        }
+        section#top-menu #menu .navbar-nav .nav-item {
+            padding-right: 20px;
+        }
+        section#top-menu #menu .elementor-button {
+            padding: 0 15px;
+        }
+        section#top-menu #menu .elementor-button .elementor-text {
+            font-size: 14px;
+        }
     }
     @media (max-width: 991px) {
-        section#top-menu section#menu .navbar-nav { background-color: #{color7}; border: 1px solid #000; padding-bottom: 10px; }
-        section#top-menu section#menu .navbar-nav .nav-item { line-height: 50px; padding: 0; text-align: center; }
-        section#top-menu section#menu .navbar-nav .nav-link { color: #{color1} !important; }
-        section#top-menu section#menu .navbar-collapse { background-color: #fff !important; }
+        section#top-menu section#menu .navbar-nav {
+            background-color: #{color7};
+            border: 1px solid #000;
+            padding-bottom: 10px;
+        }
+        section#top-menu section#menu .navbar-nav .nav-item {
+            line-height: 50px;
+            padding: 0;
+            text-align: center;
+        }
+        section#top-menu section#menu .navbar-nav .nav-link {
+            color: #{color1} !important;
+        }
+        section#top-menu section#menu .navbar-collapse {
+            background-color: #fff !important;
+        }
     }

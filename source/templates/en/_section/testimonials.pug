@@ -91,13 +91,13 @@ style.
     section#testimonials.version-5 {
         background-color: #{color7};
     }
-    section#testimonials .swiper-container {
+    section#testimonials.version-5 .swiper-container {
         overflow: hidden;
         padding-top: 50px;
         padding-bottom: 50px;
         width: 100%;
     }
-    section#testimonials .testimonial-card {
+    section#testimonials.version-5 .testimonial-card {
         background-color: #{color5};
         border-radius: 10px;
         box-shadow: 0 10px 30px rgba(0, 0, 0, 0.05);
@@ -108,47 +108,52 @@ style.
         transition: all 0.3s ease;
         text-align: center;
     }
-    section#testimonials .swiper-slide-active .testimonial-card {
+    section#testimonials.version-5 .swiper-slide-active .testimonial-card {
         opacity: 1;
         transform: scale(1.1);
         box-shadow: 0 15px 45px rgba(0, 0, 0, 0.1);
         z-index: 10;
     }
-    section#testimonials .card-content p {
+    section#testimonials.version-5 .card-content p {
         color: #{color1};
         line-height: 1.6;
     }
-    section#testimonials .google-icon img {
+    section#testimonials.version-5 .google-icon img {
         height: 25px;
         margin: 15px 0;
     }
-    section#testimonials .stars img {
+    section#testimonials.version-5 .stars img {
         margin: 0 0 10px;
         width: 18px;
     }
-    section#testimonials .author-info {
+    section#testimonials.version-5 .author-info {
         left: 0;
         right: 0;
     }
-    section#testimonials .avatar-wrapper {
+    section#testimonials.version-5 .avatar-wrapper {
         display: inline-block;
         height: 80px;
         position: relative;
         width: 80px;
     }
-    section#testimonials .avatar-wrapper .avatar {
+    section#testimonials.version-5 .avatar-wrapper .avatar {
         border-radius: 50%;
         border: 4px solid #fff;
         box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
         height: 80px;
         width: 80px;
     }
-    section#testimonials .author-info h5 {
+    section#testimonials.version-5 .author-info h5 {
         color: #{color4};
         font-weight: bold;
         margin-top: 10px;
         margin-bottom: 0;
     }
     @media(max-width: 991px){
-        .card-content { border-radius: 10px; overflow: hidden; padding: 20px; margin-bottom: 0;}
+        .card-content {
+            border-radius: 10px;
+            margin-bottom: 0;
+            overflow: hidden;
+            padding: 20px;
+        }
     }
