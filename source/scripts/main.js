@@ -834,7 +834,7 @@ $( document ).ready(function() {
 
                     $.ajax({
                         type: 'POST',
-                        url: '/php/transportationforless.php',
+                        url: '/php/sendmail.php',
                         dataType: "json",
                         data: formData
                     })

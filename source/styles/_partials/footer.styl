@@ -70,6 +70,23 @@ section#footer
   i
     color #fff
 
+.whatsapp-circle
+  background-color #25d366
+  border-radius 50%
+  bottom 80px
+  height 54px
+  position fixed
+  right 25px
+  width 54px
+
+  a
+    align-items center
+    color #fff
+    display flex
+    font-size 32px
+    height 54px
+    justify-content center
+
 @media(max-width 991px){
   section#footer {
     .theme-page-footer-bottom {
@@ -103,21 +120,9 @@ section#footer
   }
 }
 
-.whatsapp-circle
-  background-color #25d366
-  border 2px solid #fff
-  border-radius 50%
-  bottom 15px
-  height 80px
-  position fixed
-  right 15px
-  width 80px
-
-  a
-    align-items center
-    color #fff
-    display flex
-    font-size 50px
-    height 80px
-    justify-content center
+@media(max-width 479px) {
+  .whatsapp-circle {
+    right: 15px;
+  }
+}
 
