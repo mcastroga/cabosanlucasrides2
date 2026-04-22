@@ -1,0 +1,238 @@
+#step-1-airport-private-transfer.row
+    form.col
+        .info.info-container
+            #container-from.row
+                .col.position-relative
+                    a#button-from.book-button
+                        label(data-i18n="mycabotransfers.step1.label_from") From
+                        .container-book-button
+                            .book-image
+                                img(src='/images/reservations/icons/location-pin.svg')
+                            .book-text
+                                p#selected-from(data-i18n="mycabotransfers.step1.select_from") Airport or Hotel
+
+                    #select-from.book-button-results
+                        a#option-from-airport.container-book-button-results
+                            .book-image
+                                img(src='/images/reservations/icons/plane.svg')
+                            .book-text
+                                p(data-i18n="mycabotransfers.step1.from_airport") Los Cabos Airport (SJD) (terminal 1 or 2)
+                        .book-button-results-separator
+                        a#option-from-airport-fbo.container-book-button-results
+                            .book-image
+                                img(src='/images/reservations/icons/plane.svg')
+                            .book-text
+                                p(data-i18n="mycabotransfers.step1.from_fbo") Los Cabos Airport (SJD) FBO
+                        .book-button-results-separator
+                        a#option-from-hotel.container-book-button-results
+                            .book-image
+                                img(src='/images/reservations/icons/hotel.svg')
+                            .book-text
+                                input#form-hotel-from(name="Hotel")
+            #container-to.row
+                .col.position-relative
+                    a#button-to.book-button
+                        label(data-i18n="mycabotransfers.step1.label_to") To
+                        .container-book-button
+                            .book-image
+                                img(src='/images/reservations/icons/location-pin.svg')
+                            .book-text
+                                p#selected-to(data-i18n="mycabotransfers.step1.select_to") Airport or Hotel
+
+                    #select-to.book-button-results
+                        a#option-to-airport.container-book-button-results
+                            .book-image
+                                img(src='/images/reservations/icons/plane.svg')
+                            .book-text
+                                p(data-i18n="mycabotransfers.step1.to_airport") Los Cabos Airport (SJD) (terminal 1 or 2)
+                        .book-button-results-separator
+                        a#option-to-airport-fbo.container-book-button-results
+                            .book-image
+                                img(src='/images/reservations/icons/plane.svg')
+                            .book-text
+                                p(data-i18n="mycabotransfers.step1.to_fbo") Los Cabos Airport (SJD) FBO
+                        .book-button-results-separator
+                        a#option-to-hotel.container-book-button-results
+                            .book-image
+                                img(src='/images/reservations/icons/hotel.svg')
+                            .book-text
+                                input#form-hotel-to(name="Hotel")
+
+            #container-pickup.row
+                #form-container-pickup-date.col-6.col-sm-6.col-md-7.position-relative
+                    a#button-pickup-date.book-button
+                        label(data-i18n="mycabotransfers.step1.label_pickupdate") Pickup date
+                        .container-book-button
+                            .book-image
+                                img(src='/images/reservations/icons/calendar.svg')
+                            .book-text
+                                input#form-pickup-date(type="text" readonly name="pickupdate")
+
+                #form-container-pickup-time.col-6.col-sm-6.col-md-5.position-relative
+                    a#button-pickup-time.book-button
+                        label(data-i18n="mycabotransfers.step1.label_pickuptime") Pickup time
+                        .container-book-button
+                            .book-image
+                                img(src='/images/reservations/icons/clock.svg')
+                            .book-text
+                                input#form-pickup-time(type="text" name="arrivaltime")
+
+            #container-return.position-relative
+                #add-return.row
+                    .col-12
+                        a#button-add-return.book-button.empty
+                            p.centered(data-i18n="mycabotransfers.step1.button_addreturn") Add return
+
+                #selected-add-return.row
+                    #form-container-return-date.col-6.col-sm-6.col-md-7.position-relative
+                        a#button-return-date.book-button
+                            label(data-i18n="mycabotransfers.step1.label_returndate") Return date
+                            .container-book-button
+                                .book-image
+                                    img(src='/images/reservations/icons/calendar.svg')
+                                .book-text
+                                    input#form-return-date(type="text" readonly name="returndate")
+
+                    #form-container-return-time.col-6.col-sm-6.col-md-5.position-relative
+                        a#button-return-time.book-button
+                            label(data-i18n="mycabotransfers.step1.label_returntime") Return time
+                            .container-book-button
+                                .book-image
+                                    img(src='/images/reservations/icons/clock.svg')
+                                .book-text
+                                    input#form-return-time(type="text" name="returntime")
+
+                #remove-return.close-button
+                    img(src='/images/reservations/icons/close-circle.svg')
+
+            #container-pax-and-unit
+                .row
+                    #form-container-pax.col-6.col-sm-6.col-md-5.position-relative
+                        a.book-button.ready
+                            label(data-i18n="mycabotransfers.step1.label_pax") Passangers
+                            .container-book-button
+                                .book-image
+                                    img(src='/images/reservations/icons/pax.svg')
+                                .book-text
+                                    .wrapper-pax
+                                        .qtyminus -
+                                        input#form-pax(name='1' type='text' value='1' readonly)
+                                        .qtyplus +
+
+                    #form-container-unit.col-6.col-sm-6.col-md-7.position-relative
+                        a#button-unit.book-button.ready
+                            label(data-i18n="mycabotransfers.step1.label_unit") Unit
+                            .container-book-button
+                                .book-image
+                                    img(src='/images/reservations/icons/suv.svg')
+                                .book-text
+                                    input#form-unit-suv(type="text" value='Private Car' readonly)
+                                    input#form-unit-van(type="text" value='Private Van' readonly)
+
+            #container-promo.position-relative
+                #add-promo.row
+                    .col-12
+                        a#button-add-promo.book-button.empty
+                            p.centered(data-i18n="mycabotransfers.step1.button_addpromo") Unit Add promo code
+
+                #selected-add-promo.row
+                    #form-container-promo.col-12.position-relative
+                        a#button-promo.book-button.ready
+                            label(data-i18n="mycabotransfers.step1.label_promo") Unit Promo code
+                            .container-book-button
+                                .book-image
+                                    img(src='/images/reservations/icons/comments.svg')
+                                .book-text
+                                    input#form-promo(type="text" name="promo")
+
+                #remove-promo.close-button
+                    img(src='/images/reservations/icons/close-circle.svg')
+            .row
+                .col-sm-12
+                    #wrapper-submit-step-1
+
+#step1Modal.modal.fade(data-bs-backdrop='static' data-bs-keyboard='false' tabindex='-1' aria-labelledby='staticBackdropLabel' aria-hidden='true')
+    .modal-dialog
+        .modal-content
+            .modal-body
+                p
+                    span#serviceModal
+                    |
+                    |
+                    span(data-i18n="mycabotransfers.step1.modal_service") service
+
+                #for-only-suvs
+                    p.title(data-i18n="mycabotransfers.step1.modal_titlechoose") choose your option
+
+                    .container
+                        #select-toyota-sienna.row.selected
+                            .col-3
+                                img(src='/images/reservations/mini-photos/toyota-sienna.png', width='100%')
+                            .col-7
+                                h4(data-i18n="mycabotransfers.step1.modal_toyotasienna_header") First Car Available
+                                p
+                                    strong(data-i18n="mycabotransfers.step1.modal_toyotasienna_title") Toyota Sienna
+                                p
+                                    img(src='/images/reservations/icons/user.svg')
+                                    |
+                                    span#person-toyota-sienna
+                                    |  / 5
+
+                            .col-2
+                                p#price-toyota-sienna
+
+                        #select-chevrolet-suburban.row
+                            .col-3
+                                img(src='/images/reservations/mini-photos/chevrolet-suburban.png', width='100%')
+                            .col-7
+                                h4(data-i18n="mycabotransfers.step1.modal_chevroletsuburban_header") Premium SUV Service
+                                p
+                                    strong(data-i18n="mycabotransfers.step1.modal_chevroletsuburban_title") Chevrolet Suburban
+                                p
+                                    img(src='/images/reservations/icons/user.svg')
+                                    |
+                                    span#person-chevrolet-suburban
+                                    |  / 5
+                            .col-2
+                                p#price-chevrolet-suburban
+
+                        #select-toyota-hiace.row
+                            .col-3
+                                img(src='/images/reservations/mini-photos/toyota-hiace.png', width='100%')
+                            .col-7
+                                h4(data-i18n="mycabotransfers.step1.modal_toyotahiace_header") Van Service
+                                p
+                                    strong(data-i18n="mycabotransfers.step1.modal_toyotahiace_title") Toyota Hiace or Similar
+                                p
+                                    img(src='/images/reservations/icons/user.svg')
+                                    |
+                                    span#person-toyota-hiace
+                                    |  / 10
+                            .col-2
+                                p#price-toyota-hiace
+
+                        #select-mercedes-benz-sprinter.row
+                            .col-3
+                                img(src='/images/reservations/mini-photos/mercedes-benz-sprinter.png', width='100%')
+                            .col-7
+                                h4(data-i18n="mycabotransfers.step1.modal_mercedesbenzsprinter_header") Large Van Service
+                                p
+                                    strong(data-i18n="mycabotransfers.step1.modal_mercedesbenzsprinter_title") Mercedes Benz Sprinter or Similar
+                                p
+                                    img(src='/images/reservations/icons/user.svg')
+                                    |
+                                    span#person-mercedes-benz-sprinter
+                                    |  / 16
+                            .col-2
+                                p#price-mercedes-benz-sprinter
+
+                p#regular-activated
+                    | Total:
+                    |
+                    span#priceModal $ 70
+                    |  USD
+                    br
+
+            .modal-footer
+                button.btn(type='button' data-bs-dismiss='modal' data-i18n="mycabotransfers.step1.button_cancel") Cancel
+                button#goToStep2.btn(type='button' data-bs-dismiss='modal' data-i18n="mycabotransfers.step1.button_continue") Continue

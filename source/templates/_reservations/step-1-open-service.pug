@@ -1,0 +1,83 @@
+#step-1-open-service.row
+    form.col
+        .info.info-container
+            #container-from-open.row
+                .col.position-relative
+                    a#button-from-open.book-button
+                        label(data-i18n="mycabotransfers.step1.label_from") From
+                        .container-book-button
+                            .book-image
+                                img(src='/images/reservations/icons/location-pin.svg')
+                            .book-text
+                                p#selected-from-open Hotel
+
+                    #select-from-open.book-button-results
+                        a#option-from-hotel-open.container-book-button-results
+                            .book-image
+                                img(src='/images/reservations/icons/hotel.svg')
+                            .book-text
+                                input#form-hotel-from-open(name="Hotel")
+
+            #container-to-open.row
+                #form-container-to-open.col.position-relative
+                    a#button-to-open.book-button
+                        label(data-i18n="mycabotransfers.step1.label_to") To
+                        .container-book-button
+                            .book-image
+                                img(src='/images/reservations/icons/location-pin.svg')
+                            .book-text
+                                input#form-to-open(type="text" name="Hotel")
+
+            #container-pickup.row
+                #form-container-pickup-date-open.col-6.col-sm-6.col-md-7.position-relative
+                    a#button-pickup-date-open.book-button
+                        label(data-i18n="mycabotransfers.step1.label_picukdate") Pickup date
+                        .container-book-button
+                            .book-image
+                                img(src='/images/reservations/icons/calendar.svg')
+                            .book-text
+                                input#form-pickup-date-open(type="text" readonly name="pickupdateopen")
+
+                #form-container-pickup-time-open.col-6.col-sm-6.col-md-5.position-relative
+                    a#button-pickup-time-open.book-button
+                        label(data-i18n="mycabotransfers.step1.label_pickuptime") Pickup time
+                        .container-book-button
+                            .book-image
+                                img(src='/images/reservations/icons/clock.svg')
+                            .book-text
+                                input#form-pickup-time-open(type="time" name="pickuptimeopen")
+
+            #container-pax-and-unit
+                .row
+                    #form-container-pax-open.col-6.col-sm-6.col-md-5.position-relative
+                        a.book-button.ready
+                            label(data-i18n="mycabotransfers.step1.label_pax") Passangers
+                            .container-book-button
+                                .book-image
+                                    img(src='/images/reservations/icons/pax.svg')
+                                .book-text
+                                    .wrapper-pax
+                                        .qtyminus-open -
+                                        input#form-pax-open(name='1' type='text' value='1' readonly)
+                                        .qtyplus-open +
+
+                    #form-container-unit-open.col-6.col-sm-6.col-md-7.position-relative
+                        a#button-unit-open.book-button.ready
+                            label(data-i18n="mycabotransfers.step1.label_unit") Unit
+                            .container-book-button
+                                .book-image
+                                    img(src='/images/reservations/icons/suv.svg')
+                                .book-text
+                                    select#form-unit-suv-open
+                                        option(value='Toyota Sienna' selected) Toyota Sienna
+                                        option(value='Chevrolet Suburban') Chevrolet Suburban
+                                        option(value='Toyota Hiace') Toyota Hiace
+                                        option(value='Mercedes-Benz Sprinter') Mercedes-Benz Sprinter
+                                    select#form-unit-van-open
+                                        option(value='Toyota Hiace') Toyota Hiace
+                                        option(value='Mercedes-Benz Sprinter') Mercedes-Benz Sprinter
+                                    input#form-unit-van-xl-open(type="text" value='Mercedes-Benz Sprinter' readonly)
+
+            .row
+                .col-sm-12
+                    #wrapper-submit-step-1-open

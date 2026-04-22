@@ -1,0 +1,90 @@
+section#mycabotransfers
+  .container
+    .row
+      #mycabotransfers-booking.col-md-12.col-lg-6.col-xl-5
+        #mycabotransfers-booking-top
+          #service-options
+            #airport-transfers.booking-top.selected
+              .booking-top-image
+                img(src='/images/reservations/icons/plane.svg')
+              .booking-top-text
+                p(data-i18n="mycabotransfers.airport_header") Airport Private Transfers
+            #open-service.booking-top
+              .booking-top-image
+                img(src='/images/reservations/icons/time.svg')
+              .booking-top-text
+                p(data-i18n="mycabotransfers.dinning_header") Open Service
+
+          #header-total
+            p
+              | Total: $
+              |
+              span#price 70
+              |  USD
+        #mycabotransfers-booking-center
+          include step-1-airport-private-transfer
+          include step-1-open-service
+          include step-2
+          include step-3
+          include step-4
+
+        #mycabotransfers-booking-bottom
+          .google-wrapper
+            a(href="https://www.google.com/search?q=transportation+for+less&sca_esv=4b9c4fb793c57767&rlz=1C1JJTC_esMX1092MX1092&sxsrf=ANbL-n7ytxpJZW_tIN9YYqBajWvo0e-nDw%3A1774385645685&ei=7fnCaf7BKbijur8PnL76kAI&biw=2860&bih=1873&ved=0ahUKEwi-7OvQtbmTAxW4ke4BHRyfHiIQ4dUDCBE&uact=5&oq=transportation+for+less&gs_lp=Egxnd3Mtd2l6LXNlcnAiF3RyYW5zcG9ydGF0aW9uIGZvciBsZXNzMgsQLhiABBjHARivATIIEAAYgAQYywEyBBAAGB4yBBAAGB4yBhAAGAgYHjIGEAAYCBgeMgYQABgIGB4yBhAAGAgYHjIGEAAYCBgeMgYQABgIGB4yGhAuGIAEGMcBGK8BGJcFGNwEGN4EGOAE2AEBSNwDUABYtAFwAHgBkAEAmAG9AaAB7gKqAQMwLjK4AQPIAQD4AQGYAgGgArkBmAMAugYGCAEQARgUkgcDMC4xoAf2F7IHAzAuMbgHuQHCBwMyLTHIBweACAA&sclient=gws-wiz-serp#lrd=0x86af5b02f170d879:0x182efccca11644e3,1,,,," target="_blank")
+              img(src='/images/reservations/icons/icon-circle-google.svg')
+              img.circles(src='/images/reservations/icons/google-5-stars.svg')
+              p  411
+          .separator /
+          .tripadvisor-wrapper
+            a(href="https://www.tripadvisor.com.mx/Attraction_Review-g152516-d8681365-Reviews-Transportation_For_Less-San_Jose_del_Cabo_Los_Cabos_Baja_California.html" target="_blank")
+              img(src='/images/reservations/icons/icon-circle-tripadvisor.svg')
+              img.circles(src='/images/reservations/icons/tripadvisor-5-stars.svg')
+              p  653
+      #mycabotransfers-image.col-md-12.col-lg-6.col-xl-7
+        #square-image
+          img(src="/images/reservations/photos/chevrolet-suburban.png")
+        #book-wrapper
+          #book-info
+            .row
+              .col
+                #map-wrapper
+                  #svg-wrapper
+            #under-map
+              .row
+                .col.text-end
+                  p
+                    img(src='/images/reservations/icons/location-pin.svg', height="18px")
+                    |
+                    span(data-i18n="mycabotransfers.wrapper_picukupat") Pickup at
+                .col.text-start
+                  p
+                    strong#pickup-location
+              .row
+                .col.text-end
+                  p
+                    img(src='/images/reservations/icons/location-pin.svg', height="18px")
+                    |
+                    span(data-i18n="mycabotransfers.wrapper_dropoff") Drop off at
+                .col.text-start
+                  p
+                    strong#dropoff-location
+              .row
+                .col.text-end
+                  p
+                    img(src='/images/reservations/icons/time.svg', height="18px")
+                    |
+                    span(data-i18n="mycabotransfers.wrapper_time") Time
+                .col.text-start
+                  p
+                    strong#hotel-time
+              .row
+                .col.text-end
+                  p
+                    img(src='/images/reservations/icons/location-pin.svg', height="18px")
+                    |
+                    span(data-i18n="mycabotransfers.wrapper_disance") Distance
+                .col.text-start
+                  p
+                    strong#hotel-distance
+
+    include mycabotransfers-services

@@ -67,15 +67,15 @@ const paths = {
         output: "./website/"
     },
     internal_en_pages_blog: {
-        main: "source/templates/en/blog/**/*.pug",
+        main: "source/templates/blog/**/*.pug",
         output: "./website/"
     },
     internal_en_pages: {
-        main: "source/templates/en/*.pug",
+        main: "source/templates/*.pug",
         output: "./website/en/"
     },
     hotel: {
-        main: "source/templates/en/blog/**/*.pug",
+        main: "source/templates/blog/**/*.pug",
         output: "./website/en/blog/"
     }
 };
@@ -155,9 +155,9 @@ function browserSyncReload(cb) {
 function watchFiles() {
     watch("source/**/*.{gif,jpg,png,svg}", series(copyImages, browserSyncReload));
     watch("source/templates/**/*.pug", series(buildTemplates, browserSyncReload));
-    watch("source/templates/en/blog/*.pug", series(buildTemplatesENPagesBlog, browserSyncReload));
-    watch("source/templates/en/*.pug", series(buildTemplatesENPages, browserSyncReload));
-    watch("source/templates/en/blog/**/*.pug", series(buildTemplatesHotel, browserSyncReload));
+    watch("source/templates/blog/*.pug", series(buildTemplatesENPagesBlog, browserSyncReload));
+    watch("source/templates/*.pug", series(buildTemplatesENPages, browserSyncReload));
+    watch("source/templates/blog/**/*.pug", series(buildTemplatesHotel, browserSyncReload));
     watch("source/styles/**/*.styl", series(buildStyles, browserSyncReload));
     watch("source/**/*.php", series(copyPhp, browserSyncReload));
     watch("source/scripts/*.js", series(buildScripts, browserSyncReload));

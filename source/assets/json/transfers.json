@@ -2,595 +2,891 @@
   "hotel": [
     {
       "name": "Alegranza Resort",
-      "zone": 1
-    },
-    {
-      "name": "BelAir Sunclub Hotel Los Cabos",
-      "zone": 1
-    },
-    {
-      "name": "Casa Costa Azul",
-      "zone": 1
-    },
-    {
-      "name": "Casa Natalia",
-      "zone": 1
-    },
-    {
-      "name": "Club Campestre San Jose",
-      "zone": 1
-    },
-    {
-      "name": "Club La Costa San Jose del Cabo",
-      "zone": 1
-    },
-    {
-      "name": "Costa Azul Condo",
-      "zone": 1
-    },
-    {
-      "name": "Drift San Jose del Cabo",
-      "zone": 1
-    },
-    {
-      "name": "El Encanto Inn and Suites Hotel Boutique",
-      "zone": 1
-    },
-    {
-      "name": "El Zalate Condos",
-      "zone": 1
-    },
-    {
-      "name": "GR Solaris Lighthouse Los Cabos",
-      "zone": 1
-    },
-    {
-      "name": "Hilton Vacation Club Cabo Azul Los Cabos",
-      "zone": 1
-    },
-    {
-      "name": "Hotel Cactus Inn",
-      "zone": 1
-    },
-    {
-      "name": "Hotel Colli",
-      "zone": 1
-    },
-    {
-      "name": "Hyatt Place Los Cabos",
-      "zone": 1
-    },
-    {
-      "name": "Hyatt Ziva Los Cabos",
-      "zone": 1
-    },
-    {
-      "name": "La Joya Condo",
-      "zone": 1
-    },
-    {
-      "name": "Las Mañanitas",
-      "zone": 1
-    },
-    {
-      "name": "Las Olas Condo",
-      "zone": 1
-    },
-    {
-      "name": "Marisol Boutique Hotel",
-      "zone": 1
-    },
-    {
-      "name": "Miravista Condo",
-      "zone": 1
-    },
-    {
-      "name": "Mykonos Bay Resort",
-      "zone": 1
-    },
-    {
-      "name": "Park Royal Los Cabos",
-      "zone": 1
-    },
-    {
-      "name": "Posada Real Los Cabos",
-      "zone": 1
-    },
-    {
-      "name": "Posada Terranova",
-      "zone": 1
-    },
-    {
-      "name": "Royal Decameron Los Cabos",
-      "zone": 1
-    },
-    {
-      "name": "Royal Solaris Los Cabos",
-      "zone": 1
-    },
-    {
-      "name": "Sampaguita",
-      "zone": 1
-    },
-    {
-      "name": "Santa Maria Hotel and Suites",
-      "zone": 1
-    },
-    {
-      "name": "Soleado Resort",
-      "zone": 1
-    },
-    {
-      "name": "Suites Las Palmas",
-      "zone": 1
-    },
-    {
-      "name": "Tropicana Los Cabos",
-      "zone": 1
-    },
-    {
-      "name": "Viceroy Los Cabos",
-      "zone": 1
-    },
-    {
-      "name": "Vidanta Los Cabos",
-      "zone": 1
-    },
-    {
-      "name": "Viva Condos",
-      "zone": 1
-    },
-    {
-      "name": "Baja Point The Westin Los Cabos Resort Villas",
-      "zone": 2
-    },
-    {
-      "name": "Cabo Surf Hotel and Spa",
-      "zone": 2
-    },
-    {
-      "name": "Cerro Colorado Residential Area",
-      "zone": 2
-    },
-    {
-      "name": "Chileno Bay Resort and Residences",
-      "zone": 2
-    },
-    {
-      "name": "Club Regina Los Cabos",
-      "zone": 2
-    },
-    {
-      "name": "Dreams Los Cabos",
-      "zone": 2
-    },
-    {
-      "name": "El Dorado Residences",
-      "zone": 2
-    },
-    {
-      "name": "Garza Blanca Resort and Spa Los Cabos",
-      "zone": 2
-    },
-    {
-      "name": "Grand Velas Los Cabos",
-      "zone": 2
-    },
-    {
-      "name": "Hampton Inn and Suites",
-      "zone": 2
-    },
-    {
-      "name": "Hilton Grand Vacations Club La Pacifica Los Cabos",
-      "zone": 2
-    },
-    {
-      "name": "Hotel El Ganzo",
-      "zone": 2
-    },
-    {
-      "name": "JW Marriott Los Cabos Beach Resort and Spa",
-      "zone": 2
-    },
-    {
-      "name": "Las Ventanas al Paraiso Rosewood Resort",
-      "zone": 2
-    },
-    {
-      "name": "Le Blanc Spa Resort Los Cabos",
-      "zone": 2
-    },
-    {
-      "name": "Maravilla Los Cabos",
-      "zone": 2
-    },
-    {
-      "name": "Marquis Los Cabos Resort and Spa",
-      "zone": 2
-    },
-    {
-      "name": "Mar del Cabo",
-      "zone": 2
-    },
-    {
-      "name": "Miravista Condo",
-      "zone": 2
-    },
-    {
-      "name": "Mykonos Bay Resort",
-      "zone": 2
-    },
-    {
-      "name": "One and Only Palmilla",
-      "zone": 2
-    },
-    {
-      "name": "Palmilla Residential",
-      "zone": 2
-    },
-    {
-      "name": "Palmilla South",
-      "zone": 2
-    },
-    {
-      "name": "Paradisus Los Cabos",
-      "zone": 2
-    },
-    {
-      "name": "Querencia",
-      "zone": 2
-    },
-    {
-      "name": "Reflect Grand Krystal Los Cabos",
-      "zone": 2
-    },
-    {
-      "name": "Secrets Puerto Los Cabos",
-      "zone": 2
-    },
-    {
-      "name": "Solaz Luxury Resort",
-      "zone": 2
-    },
-    {
-      "name": "Villa La Valencia Beach Resort and Spa Los Cabos",
-      "zone": 2
-    },
-    {
-      "name": "The Westin Resort and Spa",
-      "zone": 2
-    },
-    {
-      "name": "Worldmark Coral Baja",
-      "zone": 2
-    },
-    {
-      "name": "Zadun Ritz-Carlton",
-      "zone": 2
-    },
-    {
-      "name": "Zoetry Casa del Mar",
-      "zone": 2
+      "zone": 1,
+      "time": "24 min to 40 min",
+      "distance": "21.5 km"
     },
     {
       "name": "Bahia Hotel and Beach House",
-      "zone": 3
+      "zone": 4,
+      "time": "40 min to 1 hr 5 min",
+      "distance": "45.2 km"
+    },
+    {
+      "name": "Baja Point The Westin Los Cabos Resort Villas",
+      "zone": 3,
+      "time": "30 min to 40 min",
+      "distance": "27.6 km"
+    },
+    {
+      "name": "BelAir Sunclub Hotel Los Cabos",
+      "zone": 1,
+      "time": "22 min to 40 min",
+      "distance": "22.5 km"
     },
     {
       "name": "Breathless Cabo San Lucas Resort and Spa",
-      "zone": 3
+      "zone": 4,
+      "time": "40 min to 1 hr 5 min",
+      "distance": "45.1 km"
     },
     {
       "name": "Cabo Cush Hotel",
-      "zone": 3
+      "zone": 4,
+      "time": "35 min to 1 hr",
+      "distance": "43.9 km"
     },
     {
       "name": "Cabo del Sol",
-      "zone": 3
+      "zone": 4,
+      "time": "35 min to 55 min",
+      "distance": "42.0 km"
     },
     {
       "name": "Cabo Inn Hotel",
-      "zone": 3
+      "zone": 4,
+      "time": "35 min to 1 hr",
+      "distance": "43.9 km"
+    },
+    {
+      "name": "Cabo Surf Hotel and Spa",
+      "zone": 2,
+      "time": "24 min to 40 min",
+      "distance": "25.1 km"
     },
     {
       "name": "Cabo Vista Hotel",
-      "zone": 3
+      "zone": 4,
+      "time": "35 min to 1 hr",
+      "distance": "44.4 km"
     },
     {
       "name": "Casa Bella Hotel Boutique",
-      "zone": 3
+      "zone": 4,
+      "time": "40 min to 1 hr 5 min",
+      "distance": "45.1 km"
+    },
+    {
+      "name": "Casa Costa Azul",
+      "zone": 1,
+      "time": "20 min to 35 min",
+      "distance": "22.1 km"
     },
     {
       "name": "Casa Dorada Los Cabos Resort and Spa",
-      "zone": 3
+      "zone": 4,
+      "time": "40 min to 1 hr 5 min",
+      "distance": "45.2 km"
+    },
+    {
+      "name": "Casa Natalia",
+      "zone": 1,
+      "time": "28 min to 40 min",
+      "distance": "23.4 km"
     },
     {
       "name": "Casa Pablito",
-      "zone": 3
+      "zone": 4,
+      "time": "35 min to 1 hr",
+      "distance": "43.9 km"
+    },
+    {
+      "name": "Cerro Colorado Residential Area",
+      "zone": 3,
+      "time": "26 min to 45 min",
+      "distance": "28 km"
+    },
+    {
+      "name": "Chileno Bay Resort and Residences",
+      "zone": 3,
+      "time": "35 min to 55 min",
+      "distance": "37 km"
     },
     {
       "name": "City Express Suites",
-      "zone": 3
+      "zone": 4,
+      "time": "40 min to 1 hr 5 min",
+      "distance": "45.3 km"
+    },
+    {
+      "name": "Club Campestre San Jose",
+      "zone": 1,
+      "time": "24 min to 40 min",
+      "distance": "22.3 km"
     },
     {
       "name": "Club Cascadas de Baja",
-      "zone": 3
+      "zone": 4,
+      "time": "35 min to 1 hr 5 min",
+      "distance": "44.6 km"
+    },
+    {
+      "name": "Club La Costa San Jose del Cabo",
+      "zone": 1,
+      "time": "24 min to 40 min",
+      "distance": "21.5 km"
+    },
+    {
+      "name": "Club Regina Los Cabos",
+      "zone": 3,
+      "time": "30 min to 40 min",
+      "distance": "27.6 km"
     },
     {
       "name": "Comfort Inn",
-      "zone": 3
-    },
-    {
-      "name": "Corazon Cabo Resort and Spa",
-      "zone": 3
-    },
-    {
-      "name": "El Ameyal Hotel",
-      "zone": 3
-    },
-    {
-      "name": "El Tezal Area",
-      "zone": 3
-    },
-    {
-      "name": "Esperanza An Auberge",
-      "zone": 3
-    },
-    {
-      "name": "Esperanza Residences",
-      "zone": 3
-    },
-    {
-      "name": "Estancia Real",
-      "zone": 3
-    },
-    {
-      "name": "Fairfield Inn Marriott",
-      "zone": 3
-    },
-    {
-      "name": "Four Seasons Resort at Cabo del Sol",
-      "zone": 3
-    },
-    {
-      "name": "Grand Fiesta Americana",
-      "zone": 3
-    },
-    {
-      "name": "Grand Solmar Lands End Resort and Spa",
-      "zone": 3
-    },
-    {
-      "name": "Hacienda Beach Club and Residences",
-      "zone": 3
-    },
-    {
-      "name": "Hacienda del Mar by Marriott",
-      "zone": 3
-    },
-    {
-      "name": "Hacienda Encantada Resort and Residences",
-      "zone": 3
-    },
-    {
-      "name": "Holiday Inn Express",
-      "zone": 3
-    },
-    {
-      "name": "Hyatt Vacation Club at Sirena del Mar",
-      "zone": 3
-    },
-    {
-      "name": "Los Cabos Golf Resort",
-      "zone": 3
-    },
-    {
-      "name": "Los Milagros Hotel",
-      "zone": 3
-    },
-    {
-      "name": "Los Patios Hotel",
-      "zone": 3
-    },
-    {
-      "name": "Mar de Cortez",
-      "zone": 3
-    },
-    {
-      "name": "Marina Fiesta Resort and Spa",
-      "zone": 3
-    },
-    {
-      "name": "Marina Sol",
-      "zone": 3
-    },
-    {
-      "name": "ME Cabo by Melia",
-      "zone": 3
-    },
-    {
-      "name": "Medano Hotel and Suites",
-      "zone": 3
-    },
-    {
-      "name": "Misiones del Cabo",
-      "zone": 3
-    },
-    {
-      "name": "Montage Los Cabos",
-      "zone": 3
-    },
-    {
-      "name": "Playa Grande Resort and Grand Spa",
-      "zone": 3
-    },
-    {
-      "name": "Portofino Resort",
-      "zone": 3
-    },
-    {
-      "name": "Pueblo Bonito Los Cabos Beach Resort",
-      "zone": 3
-    },
-    {
-      "name": "Pueblo Bonito Rose Resort and Spa",
-      "zone": 3
-    },
-    {
-      "name": "Puerta del Sol Villas",
-      "zone": 3
-    },
-    {
-      "name": "Puerta Vieja Boutique Hotel",
-      "zone": 3
-    },
-    {
-      "name": "Punta Ballena Area",
-      "zone": 3
-    },
-    {
-      "name": "Quintas del Sol by Solmar",
-      "zone": 3
-    },
-    {
-      "name": "Riu Baja California",
-      "zone": 3
-    },
-    {
-      "name": "Riu Palace",
-      "zone": 3
-    },
-    {
-      "name": "Riu Santa Fe",
-      "zone": 3
-    },
-    {
-      "name": "Sandos Finisterra Los Cabos",
-      "zone": 3
-    },
-    {
-      "name": "Seven Crown Express and Suites",
-      "zone": 3
-    },
-    {
-      "name": "Siesta Suites Boutique Hotel",
-      "zone": 3
-    },
-    {
-      "name": "Sofia Hotal Cabo",
-      "zone": 3
-    },
-    {
-      "name": "Solmar Resort",
-      "zone": 3
-    },
-    {
-      "name": "Sunrock Condo",
-      "zone": 3
-    },
-    {
-      "name": "The Bungalows Hotel",
-      "zone": 3
-    },
-    {
-      "name": "The Cape Thompson",
-      "zone": 3
-    },
-    {
-      "name": "The Residences at La Vista",
-      "zone": 3
-    },
-    {
-      "name": "Terrasol Cabo Beach Resort",
-      "zone": 3
-    },
-    {
-      "name": "Villa Del Arco Beach Resort and Spa",
-      "zone": 3
-    },
-    {
-      "name": "Villa Del Palmar Beach Resort and Spa",
-      "zone": 3
-    },
-    {
-      "name": "Villa La Estancia Beach Resort and Spa",
-      "zone": 3
-    },
-    {
-      "name": "Vista Azul Suites and Spa Hotel",
-      "zone": 3
-    },
-    {
-      "name": "Waldorf Astoria at Pedregal",
-      "zone": 3
-    },
-    {
-      "name": "Wyndham Tesoro",
-      "zone": 3
+      "zone": 4,
+      "time": "35 min to 1 hr",
+      "distance": "46.4 km"
     },
     {
       "name": "Copala",
-      "zone": 4
+      "zone": 4,
+      "time": "55 min to 1 hr 10 min",
+      "distance": "54.4 km"
+    },
+    {
+      "name": "Corazon Cabo Resort and Spa",
+      "zone": 4,
+      "time": "40 min to 1 hr 5 min",
+      "distance": "44.6 km"
+    },
+    {
+      "name": "Costa Azul Condo",
+      "zone": 2,
+      "time": "20 min to 35 min",
+      "distance": "21.3 km"
     },
     {
       "name": "Diamante Cabo San Lucas",
-      "zone": 4
+      "zone": 4,
+      "time": "40 min to 1 hr 10 min",
+      "distance": "53.3 km"
+    },
+    {
+      "name": "Dreams Los Cabos",
+      "zone": 3,
+      "time": "28 min to 45 min",
+      "distance": "31.3 km"
+    },
+    {
+      "name": "Drift San Jose del Cabo",
+      "zone": 1,
+      "time": "26 min to 45 min",
+      "distance": "23.3 km"
+    },
+    {
+      "name": "El Ameyal Hotel",
+      "zone": 4,
+      "time": "40 min to 1 hr",
+      "distance": "46.3 km"
+    },
+    {
+      "name": "El Dorado Residences",
+      "zone": 3,
+      "time": "26 min to 45 min",
+      "distance": "27.7 km"
+    },
+    {
+      "name": "El Encanto Inn and Suites Hotel Boutique",
+      "zone": 1,
+      "time": "20 min to 50 min",
+      "distance": "23.2 km"
+    },
+    {
+      "name": "El Tezal Area",
+      "zone": 4,
+      "time": "40 min to 1 hr",
+      "distance": "46.3 km"
+    },
+    {
+      "name": "El Zalate Condos",
+      "zone": 1,
+      "time": "20 min to 35 min",
+      "distance": "21.5 km"
+    },
+    {
+      "name": "Esperanza An Auberge",
+      "zone": 4,
+      "time": "40 min to 1 hr 5 min",
+      "distance": "47.3 km"
+    },
+    {
+      "name": "Esperanza Residences",
+      "zone": 4,
+      "time": "40 min to 1 hr 5 min",
+      "distance": "47.3 km"
+    },
+    {
+      "name": "Estancia Real",
+      "zone": 4,
+      "time": "35 min to 1 hr",
+      "distance": "43.8 km"
+    },
+    {
+      "name": "Fairfield Inn Marriott",
+      "zone": 4,
+      "time": "40 min to 1 hr 5 min",
+      "distance": "44.7 km"
+    },
+    {
+      "name": "Four Seasons Resort at Cabo del Sol",
+      "zone": 4,
+      "time": "40 min to 1 hr",
+      "distance": "42.2 km"
+    },
+    {
+      "name": "Garza Blanca Resort and Spa Los Cabos",
+      "zone": 3,
+      "time": "28 min to 45 min",
+      "distance": "32.9 km"
+    },
+    {
+      "name": "GR Solaris Lighthouse Los Cabos",
+      "zone": 1,
+      "time": "22 min to 40 min",
+      "distance": "21 km"
+    },
+    {
+      "name": "Grand Fiesta Americana",
+      "zone": 4,
+      "time": "35 min to 1 hr",
+      "distance": "42.3 km"
     },
     {
       "name": "Grand Solmar at Pacific Dunes Golf and Spa",
-      "zone": 4
+      "zone": 4,
+      "time": "40 min to 1 hr 10 min",
+      "distance": "45.1 km"
+    },
+    {
+      "name": "Grand Solmar Lands End Resort and Spa",
+      "zone": 4,
+      "time": "45 min to 1 hr 10 min",
+      "distance": "46.4 km"
+    },
+    {
+      "name": "Grand Velas Los Cabos",
+      "zone": 3,
+      "time": "30 min to 50 min",
+      "distance": "39.1 km"
+    },
+    {
+      "name": "Hacienda Beach Club and Residences",
+      "zone": 4,
+      "time": "40 min to 1 hr 5 min",
+      "distance": "44.8 km"
+    },
+    {
+      "name": "Hacienda del Mar by Marriott",
+      "zone": 4,
+      "time": "35 min to 1 hr",
+      "distance": "42 km"
+    },
+    {
+      "name": "Hacienda Encantada Resort and Residences",
+      "zone": 4,
+      "time": "40 min to 1 hr",
+      "distance": "44.8 km"
+    },
+    {
+      "name": "Hampton Inn and Suites",
+      "zone": 3,
+      "time": "24 min to 40 min",
+      "distance": "26 km"
     },
     {
       "name": "Hard Rock Hotel",
-      "zone": 4
+      "zone": 4,
+      "time": "50 min to 1 hr 10 min",
+      "distance": "56.7 km"
+    },
+    {
+      "name": "Hilton Grand Vacations Club La Pacifica Los Cabos",
+      "zone": 3,
+      "time": "28 min to 45 min",
+      "distance": "30.2 km"
+    },
+    {
+      "name": "Hilton Vacation Club Cabo Azul Los Cabos",
+      "zone": 1,
+      "time": "22 min to 40 min",
+      "distance": "21.3 km"
+    },
+    {
+      "name": "Holiday Inn Express",
+      "zone": 4,
+      "time": "40 min to 1 hr 5 min",
+      "distance": "46.4 km"
+    },
+    {
+      "name": "Hotel Cactus Inn",
+      "zone": 1,
+      "time": "6 min to 12 min",
+      "distance": "4.2 km"
+    },
+    {
+      "name": "Hotel Colli",
+      "zone": 1,
+      "time": "6 min to 12 min",
+      "distance": "4.2 km"
+    },
+    {
+      "name": "Hotel El Ganzo",
+      "zone": 2,
+      "time": "30 min to 50 min",
+      "distance": "27.1 km"
+    },
+    {
+      "name": "Hyatt Place Los Cabos",
+      "zone": 1,
+      "time": "22 min to 35 min",
+      "distance": "20.5 km"
+    },
+    {
+      "name": "Hyatt Vacation Club at Sirena del Mar",
+      "zone": 4,
+      "time": "40 min to 1 hr",
+      "distance": "46.1 km"
+    },
+    {
+      "name": "Hyatt Ziva Los Cabos",
+      "zone": 1,
+      "time": "22 min to 40 min",
+      "distance": "21.2 km"
+    },
+    {
+      "name": "JW Marriott Los Cabos Beach Resort and Spa",
+      "zone": 2,
+      "time": "35 min to 55 min",
+      "distance": "28.7 km"
+    },
+    {
+      "name": "La Jolla Condo",
+      "zone": 2,
+      "time": "22 min to 40 min",
+      "distance": "22.5 km"
+    },
+    {
+      "name": "Las Mañanitas",
+      "zone": 1,
+      "time": "24 min to 40 min",
+      "distance": "21.6 km"
+    },
+    {
+      "name": "Las Olas Condo",
+      "zone": 2,
+      "time": "24 min to 45 min",
+      "distance": "25.5 km"
+    },
+    {
+      "name": "Las Ventanas al Paraiso Rosewood Resort",
+      "zone": 3,
+      "time": "28 min to 45 min",
+      "distance": "30.6 km"
+    },
+    {
+      "name": "Le Blanc Spa Resort Los Cabos",
+      "zone": 3,
+      "time": "28 min to 45 min",
+      "distance": "33.2 km"
+    },
+    {
+      "name": "Los Cabos Golf Resort",
+      "zone": 4,
+      "time": "40 min to 1 hr 5 min",
+      "distance": "48.3 km"
+    },
+    {
+      "name": "Los Milagros Hotel",
+      "zone": 4,
+      "time": "40 min to 1 hr 5 min",
+      "distance": "44.9 km"
+    },
+    {
+      "name": "Los Patios Hotel",
+      "zone": 4,
+      "time": "40 min to 1 hr",
+      "distance": "46.3 km"
+    },
+    {
+      "name": "Mar de Cortez",
+      "zone": 4,
+      "time": "40 min to 1 hr 5 min",
+      "distance": "44.5 km"
+    },
+    {
+      "name": "Mar del Cabo by Velas",
+      "zone": 3,
+      "time": "30 min to 50 min",
+      "distance": "39.2 km"
+    },
+    {
+      "name": "Maravilla Los Cabos",
+      "zone": 3,
+      "time": "25 min to 55 min",
+      "distance": "39.4 km"
+    },
+    {
+      "name": "Marina Fiesta Resort and Spa",
+      "zone": 4,
+      "time": "40 min to 1 hr 5 min",
+      "distance": "44.8 km"
+    },
+    {
+      "name": "Marina Sol",
+      "zone": 4,
+      "time": "40 min to 1 hr 5 min",
+      "distance": "44.3 km"
+    },
+    {
+      "name": "Marisol Boutique Hotel",
+      "zone": 1,
+      "time": "24 min to 40 min",
+      "distance": "21.5 km"
+    },
+    {
+      "name": "Marquis Los Cabos Resort and Spa",
+      "zone": 3,
+      "time": "26 min to 45 min",
+      "distance": "31.0 km"
+    },
+    {
+      "name": "ME Cabo by Melia",
+      "zone": 4,
+      "time": "40 min to 1 hr 5 min",
+      "distance": "45.2 km"
+    },
+    {
+      "name": "Medano Hotel and Suites",
+      "zone": 4,
+      "time": "40 min to 1 hr 5 min",
+      "distance": "44.8 km"
+    },
+    {
+      "name": "Miravista Condo",
+      "zone": 2,
+      "time": "24 min to 45 min",
+      "distance": "25.5 km"
+    },
+    {
+      "name": "Misiones del Cabo",
+      "zone": 4,
+      "time": "40 min to 1 hr",
+      "distance": "45.8 km"
     },
     {
       "name": "Montecristo Estates",
-      "zone": 4
+      "zone": 4,
+      "time": "40 min to 1 hr 5 min",
+      "distance": "45.6 km"
+    },
+    {
+      "name": "Montage Los Cabos",
+      "zone": 4,
+      "time": "35 min to 55 min",
+      "distance": "40 km"
+    },
+    {
+      "name": "Mykonos Bay Resort",
+      "zone": 2,
+      "time": "22 min to 40 min",
+      "distance": "22.2 km"
     },
     {
       "name": "Nobu Hotel Los Cabos",
-      "zone": 4
+      "zone": 4,
+      "time": "50 min to 1 hr 10 min",
+      "distance": "56.9 km"
     },
     {
-      "name": "Novaispania",
-      "zone": 4
+      "name": "One and Only Palmilla",
+      "zone": 2,
+      "time": "26 min to 45 min",
+      "distance": "25.2 km"
+    },
+    {
+      "name": "Palmilla Residential",
+      "zone": 2,
+      "time": "26 min to 45 min",
+      "distance": "25.2 km"
+    },
+    {
+      "name": "Palmilla South",
+      "zone": 2,
+      "time": "26 min to 45 min",
+      "distance": "25.2 km"
+    },
+    {
+      "name": "Paradisus Los Cabos",
+      "zone": 3,
+      "time": "26 min to 45 min",
+      "distance": "30 km"
+    },
+    {
+      "name": "Park Royal Los Cabos",
+      "zone": 1,
+      "time": "22 min to 40 min",
+      "distance": "20.8 km"
     },
     {
       "name": "Pedregal Cabo San Lucas",
-      "zone": 4
+      "zone": 4,
+      "time": "45 min to 1 hr 10 min",
+      "distance": "46.4 km"
+    },
+    {
+      "name": "Playa Grande Resort and Grand Spa",
+      "zone": 4,
+      "time": "45 min to 1 hr 10 min",
+      "distance": "46.3 km"
+    },
+    {
+      "name": "Portofino Resort",
+      "zone": 4,
+      "time": "40 min to 1 hr 10 min",
+      "distance": "45.8 km"
+    },
+    {
+      "name": "Posada Real Los Cabos",
+      "zone": 1,
+      "time": "22 min to 40 min",
+      "distance": "20.8 km"
+    },
+    {
+      "name": "Posada Terranova",
+      "zone": 1,
+      "time": "26 min to 40 min",
+      "distance": "21.9 km"
+    },
+    {
+      "name": "Pueblo Bonito Los Cabos Beach Resort",
+      "zone": 4,
+      "time": "40 min to 1 hr 5 min",
+      "distance": "44.9 km"
     },
     {
       "name": "Pueblo Bonito Pacifica Golf and Spa Resort",
-      "zone": 4
+      "zone": 4,
+      "time": "50 min to 1 hr 10 min",
+      "distance": "47.3 km"
+    },
+    {
+      "name": "Pueblo Bonito Rose Resort and Spa",
+      "zone": 4,
+      "time": "40 min to 1 hr 5 min",
+      "distance": "44.9 km"
     },
     {
       "name": "Pueblo Bonito Sunset Beach Golf and Spa Resort",
-      "zone": 4
+      "zone": 4,
+      "time": "45 min to 1 hr 5 min",
+      "distance": "46.9 km"
+    },
+    {
+      "name": "Puerta del Sol Villas",
+      "zone": 4,
+      "time": "35 min to 1 hr",
+      "distance": "46.9 km"
+    },
+    {
+      "name": "Puerta Vieja Boutique Hotel",
+      "zone": 4,
+      "time": "35 min to 1 hr",
+      "distance": "44.9 km"
+    },
+    {
+      "name": "Punta Ballena Area",
+      "zone": 4,
+      "time": "40 min to 1 hr 5 min",
+      "distance": "46.4 km"
+    },
+    {
+      "name": "Querencia",
+      "zone": 2,
+      "time": "22 min to 40 min",
+      "distance": "23.9 km"
+    },
+    {
+      "name": "Quintas del Sol by Solmar",
+      "zone": 4,
+      "time": "35 min to 1 hr",
+      "distance": "44.1 km"
     },
     {
       "name": "Quivira Los Cabos",
-      "zone": 4
+      "zone": 4,
+      "time": "45 min to 1 hr 10 min",
+      "distance": "48.1 km"
+    },
+    {
+      "name": "Reflect Grand Krystal Los Cabos",
+      "zone": 2,
+      "time": "22 min to 40 min",
+      "distance": "22.3 km"
+    },
+    {
+      "name": "Riu Palace Baja California",
+      "zone": 4,
+      "time": "40 min to 1 hr 10 min",
+      "distance": "46.4 km"
+    },
+    {
+      "name": "Riu Palace Cabo San Lucas",
+      "zone": 4,
+      "time": "40 min to 1 hr 10 min",
+      "distance": "46.4 km"
+    },
+    {
+      "name": "Riu Santa Fe",
+      "zone": 4,
+      "time": "40 min to 1 hr 10 min",
+      "distance": "46.4 km"
+    },
+    {
+      "name": "Royal Decameron Los Cabos",
+      "zone": 1,
+      "time": "22 min to 40 min",
+      "distance": "21 km"
+    },
+    {
+      "name": "Royal Solaris Los Cabos",
+      "zone": 1,
+      "time": "24 min to 40 min",
+      "distance": "21.2 km"
+    },
+    {
+      "name": "Sampaguita",
+      "zone": 1,
+      "time": "24 min to 40 min",
+      "distance": "21.3 km"
+    },
+    {
+      "name": "Sandos Finisterra Los Cabos",
+      "zone": 4,
+      "time": "45 min to 1 hr 10 min",
+      "distance": "46.1 km"
+    },
+    {
+      "name": "Santa Maria Hotel and Suites",
+      "zone": 1,
+      "time": "24 min to 40 min",
+      "distance": "21.6 km"
+    },
+    {
+      "name": "Secrets Puerto Los Cabos",
+      "zone": 2,
+      "time": "35 min to 55 min",
+      "distance": "28 km"
+    },
+    {
+      "name": "Seven Crown Express and Suites",
+      "zone": 4,
+      "time": "40 min to 1 hr 5 min",
+      "distance": "44.5 km"
+    },
+    {
+      "name": "Siesta Suites Boutique Hotel",
+      "zone": 4,
+      "time": "40 min to 1 hr 10 min",
+      "distance": "45.5 km"
+    },
+    {
+      "name": "Sofia Hostal Cabo",
+      "zone": 4,
+      "time": "40 min to 1 hr 10 min",
+      "distance": "45 km"
+    },
+    {
+      "name": "Solaz Luxury Resort",
+      "zone": 3,
+      "time": "28 min to 50 min",
+      "distance": "34.1 km"
+    },
+    {
+      "name": "Soleado Resort",
+      "zone": 1,
+      "time": "20 min to 35 min",
+      "distance": "21.9 km"
+    },
+    {
+      "name": "Solmar Resort",
+      "zone": 4,
+      "time": "45 min to 1 hr 10 min",
+      "distance": "46.4 km"
+    },
+    {
+      "name": "Suites Las Palmas",
+      "zone": 1,
+      "time": "25 min to 35 min",
+      "distance": "21.7 km"
+    },
+    {
+      "name": "Sunrock Condo",
+      "zone": 4,
+      "time": "35 min to 1 hr",
+      "distance": "45.6 km"
+    },
+    {
+      "name": "Terrasol Cabo Beach Resort",
+      "zone": 4,
+      "time": "40 min to 1 hr 10 min",
+      "distance": "46.2 km"
+    },
+    {
+      "name": "The Bungalows Hotel",
+      "zone": 4,
+      "time": "40 min to 1 hr 5 min",
+      "distance": "45 km"
+    },
+    {
+      "name": "The Cape Thompson",
+      "zone": 4,
+      "time": "40 min to 1 hr",
+      "distance": "45.8 km"
+    },
+    {
+      "name": "The Residences at La Vista",
+      "zone": 4,
+      "time": "40 min to 1 hr 5 min",
+      "distance": "45.1 km"
+    },
+    {
+      "name": "The Westin Resort and Spa",
+      "zone": 3,
+      "time": "30 min to 40 min",
+      "distance": "27.6 km"
+    },
+    {
+      "name": "Tropicana Los Cabos",
+      "zone": 1,
+      "time": "26 min to 40 min",
+      "distance": "23.3 km"
+    },
+    {
+      "name": "Viceroy Los Cabos",
+      "zone": 1,
+      "time": "24 min to 35 min",
+      "distance": "20.9 km"
+    },
+    {
+      "name": "Vidanta Los Cabos",
+      "zone": 1,
+      "time": "22 min to 40 min",
+      "distance": "21.5 km"
+    },
+    {
+      "name": "Villa Del Arco Beach Resort and Spa",
+      "zone": 4,
+      "time": "40 min to 1 hr 10 min",
+      "distance": "45.1 km"
+    },
+    {
+      "name": "Villa Del Palmar Beach Resort and Spa",
+      "zone": 4,
+      "time": "40 min to 1 hr 10 min",
+      "distance": "45.1 km"
+    },
+    {
+      "name": "Villa La Estancia Beach Resort and Spa",
+      "zone": 4,
+      "time": "40 min to 1 hr 10 min",
+      "distance": "45.1 km"
+    },
+    {
+      "name": "Villa La Valencia Beach Resort and Spa Los Cabos",
+      "zone": 3,
+      "time": "28 min to 50 min",
+      "distance": "34.2 km"
+    },
+    {
+      "name": "Viva Condos",
+      "zone": 1,
+      "time": "24 min to 40 min",
+      "distance": "21.4 km"
+    },
+    {
+      "name": "Vista Azul Suites and Spa Hotel",
+      "zone": 4,
+      "time": "35 min to 1 hr",
+      "distance": "44.6 km"
+    },
+    {
+      "name": "Waldorf Astoria at Pedregal",
+      "zone": 4,
+      "time": "40 min to 1 hr 10 min",
+      "distance": "46 km"
+    },
+    {
+      "name": "Worldmark Coral Baja",
+      "zone": 2,
+      "time": "22 min to 40 min",
+      "distance": "21.8 km"
+    },
+    {
+      "name": "Wyndham Tesoro",
+      "zone": 4,
+      "time": "40 min to 1 hr 10 min",
+      "distance": "44.8 km"
+    },
+    {
+      "name": "Zadun Ritz-Carlton",
+      "zone": 2,
+      "time": "35 min to 1 hr",
+      "distance": "29.8 km"
+    },
+    {
+      "name": "Zoetry Casa del Mar",
+      "zone": 3,
+      "time": "30 min to 50 min",
+      "distance": "30.7 km"
+    },
+    {
+      "name": "Cerritos",
+      "zone": 5,
+      "time": "1 hr 9 min to 1 hr 25 min",
+      "distance": "96.6 km"
+    },
+    {
+      "name": "El Pescadero",
+      "zone": 5,
+      "time": "1 hr 11 min to 1 hr 35 min",
+      "distance": "99.2 km"
     },
     {
       "name": "Todos Santos",
-      "zone": 5
+      "zone": 5,
+      "time": "1 hr 20 min to 1 h 40 min",
+      "distance": "110 km"
     },
     {
-      "name": "Pescadero",
-      "zone": 5
+      "name": "Four Seasons at Costa Palmas",
+      "zone": 6,
+      "time": "1 hr 7 min to 1 hr 20 min",
+      "distance": "65.8 km"
+    },
+    {
+      "name": "La Ribera",
+      "zone":6,
+      "time": "1 hr to 1 hr 15 min",
+      "distance": "63.6 km"
     },
     {
       "name": "Buena Vista",
-      "zone": 6
+      "zone": 7,
+      "time": "58 min to 1 hr 15 min",
+      "distance": "66.6 km"
     },
     {
       "name": "Los Barriles",
-      "zone": 6
+      "zone": 7,
+      "time": "1 hr 2 min to 1 hr 20 min",
+      "distance": "69.3 km"
     },
     {
       "name": "La Paz",
-      "zone": 7
+      "zone": 8,
+      "time": "2 hr 21 min to 2 hr 35 min",
+      "distance": "179 km"
     }
   ]
 }

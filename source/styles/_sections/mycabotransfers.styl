@@ -85,9 +85,10 @@ section#mycabotransfers
             line-height 14px
             padding 0
 
+      .booking-top:first-child
+        max-width 160px
       .booking-top.selected
         background-color $color-action
-        max-width 160px
 
         .booking-top-image
           img
@@ -102,13 +103,16 @@ section#mycabotransfers
       border-radius 10px
       overflow hidden
 
-      #promo-activated,
+      #step-1-open-service,
       #step-2,
       #step-3,
-      #step-4
+      #step-4,
+      #airline-wrapper-private,
+      #promo-activated
         display none
 
       #step-1-airport-private-transfer,
+      #step-1-open-service,
       #step-2,
       #step-3,
       #step-4,
@@ -125,7 +129,8 @@ section#mycabotransfers
             margin 0
 
           #selected-add-return,
-          #selected-add-promo
+          #selected-add-promo,
+          #form-container-hours
             display none
 
           .book-button.ready
@@ -222,7 +227,8 @@ section#mycabotransfers
                   -webkit-appearance none
                   -moz-appearance none
 
-                input#form-pax
+                input#form-pax,
+                input#form-pax-open
                   margin 0 10px 20px
                   max-width 80px
                   text-align center
@@ -245,7 +251,9 @@ section#mycabotransfers
               width 100%
 
               .qtyplus,
-              .qtyminus
+              .qtyminus,
+              .qtyplus-open,
+              .qtyminus-open
                 align-items center
                 background: $color-action
                 border-radius 50%
@@ -261,14 +269,17 @@ section#mycabotransfers
 
           .book-button.checkbox
             align-items center
+            color #000
             display flex
             justify-content center
 
             .book-image-checkbox
               input[type='checkbox']
                 border-radius 50%
+                height 30px
                 margin-top 0
                 padding 0
+                width 30px
 
               .form-check-input:checked
                 background-color $color-action !important
@@ -323,6 +334,7 @@ section#mycabotransfers
                 padding-bottom 10px
 
           #select-from,
+          #select-from-open,
           #select-to,
           #remove-return,
           #remove-promo
@@ -368,6 +380,7 @@ section#mycabotransfers
                 width 100%
 
                 #form-hotel-from,
+                #form-hotel-from-open,
                 #form-hotel-to
                   border 0
                   border-bottom 1px solid #000
@@ -442,8 +455,21 @@ section#mycabotransfers
 
         .submit-button[disabled="disabled"],
         .qtyplus[disabled='disabled'],
-        .qtyminus[disabled='disabled']
+        .qtyminus[disabled='disabled'],
+        .qtyplus-open[disabled='disabled'],
+        .qtyminus-open[disabled='disabled']
           opacity 0.5
+
+
+      #step-1-airport-private-transfer,
+      #step-1-open-service,
+      #step-2
+        form.col
+          margin-bottom 0
+
+      #step-1-open-service
+        #send-open-step-1
+          margin-top 150px
 
       #step-3
         #click-paypal
@@ -497,6 +523,28 @@ section#mycabotransfers
         color #000
 
   #mycabotransfers-image
+    #book-wrapper
+      display none
+      justify-content end
+
+      #book-info
+        background-color #fff
+        border 2px solid #000
+        border-radius: 10px
+        margin-top 40px
+        max-width 495px
+        min-height 570px
+        overflow hidden
+        padding 30px 15px
+        width 495px
+
+        #map-wrapper
+          width 100%
+
+          #svg-wrapper
+            height auto
+            width 100%
+
     #square-image
       align-items center
       display flex
@@ -522,7 +570,7 @@ section#mycabotransfers
     margin-bottom 20px
     width auto !important
 
-  #services
+  #mycabotransfers-services
     color #fff
     padding 30px 0 0 0
 
@@ -642,6 +690,12 @@ section#mycabotransfers
               label.special
                 font-size 16px
 
+    #mycabotransfers-image
+      #book-wrapper
+        #book-info
+          max-width 100%
+          width 100%
+
 @media(max-width 575px)
   section#mycabotransfers
     #mycabotransfers-booking
@@ -696,6 +750,52 @@ section#mycabotransfers
 
 .margin-bottom-20
   margin-bottom 20px
+
+#square-image {
+  transition: opacity 0.5s ease, transform 0.5s ease;
+  opacity: 1;
+}
+
+.fade-out {
+  opacity: 0 !important;
+  transform: translateY(-20px);
+  pointer-events: none;
+}
+
+#book-wrapper {
+  display: none;
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.fade-in {
+  display: flex !important;
+  opacity: 1 !important;
+}
+
+#under-map
+  padding-top 20px
+
+  .row
+    border-bottom 1px solid #000
+    padding 10px 0
+
+  p
+    color #000
+    font-size 16px
+
+  .text-end
+    align-items center
+    display flex
+    justify-content flex-end
+
+    p
+      align-items center
+      display flex
+      justify-content flex-end
+
+      img
+        margin-right 5px
 
 section#separator-1
   .separator-1
